@@ -70,7 +70,7 @@ B.    Métier
  
 Le produit sera utilisé dans le cadre du « Retail », c’est-à-dire dans le commerce/vente. Je porte la problématique plus précisément dans les supermarchés alimentaires. On peut penser que plus tard, si l’application à du succès elle pourra s’étendre sur d’autres types de commerce, comme dans le prêt à porter, le bricolage, magasin de sport et bien d’autres.
  
-C’est dans les supermarchés et marquets qu’on développera l’utilisation de la solution, pour deux raisons. La première est que c’est dans ce milieu que j’ai rencontré le problème, et le deuxième est que à l’inverse d’un magasin de vêtements ou jardinage pas exemple, on y va avec une idée plus précise en tête sur ce qu’on doit acheter, on n’a pas à accepter le fait qu’on passer du temps dans le magasin pour choisir un produit, c’est pour cela que j’ai choisi les markets, car c’est dedans que la problématique prends plus de sens.
+C’est dans les supermarchés et marquets qu’on développera l’utilisation de la solution.
  
 C.     Utilisateur cible
  
@@ -79,25 +79,80 @@ On sait que plusieurs solutions permettent à un consommateur de gagner du temps
 Mais malgré ces solutions, il existe toujours des clients qui vont se déplacer pour faire des courses.
  
 Prêt de 75% des français préfèrent se déplacer en magasin pour faire leurs courses alimentaires.
- 
+
+IMAGE -> Statistique déplacement utilisateurs
+
 Pour avoir une vision de notre futur produit et avoir une cible utilisateur plus précise on va effectuer une analyse d’un « persona ».
+
  
 C.1 Construction d’un persona
  
-Maxime, étudiant de 5ème année en informatique qui a 24 ans et travail en alternance. Achète des boisons et biscuits pour son petit dejeuner sur le chemin et souvent le magasin à côté de son école. Parfois quand il doit faire des réunions avec des amis il a besoin de faire des courses dans un magasin qu’il ne connâit pas et également à côté de son travail. Comme il ne fait des grandes courses qu’une fois par mois dans les supermarchés il ne connaît pas forcément tous les rayons, alors il est tout de même perdu.
-Il possède un smartphone. Parfois il préfère gagner du temps plutôt que payer un peu plus cher, si cela lui permet d’utiliser ce temps dans une autre activité.
- 
+Maxime, étudiant de 5ème année en informatique qui a 24 ans et travail en alternance sur Paris.
+
+Son problème est que parfois quand il a besoin de faire des courses dans un magasin qu’il ne connâit pas ou ne fréquente pas souvent il n'arrive pas à trouver des articles et tourne en rond et cela le stress quand il est pressé. Comme il ne fait des grandes courses qu’une fois par mois dans les supermarchés il ne connaît pas forcément tous les rayons, alors il est tout de même perdu.
+
+Cela lui arrive de préfèrer gagner du temps plutôt que payer un peu plus cher, si cela lui permet d’utiliser ce temps dans une autre activité.
+
+Il est assez alaise avec les nouvelles technologies
+Il n'est pas assez regardant sur les données qu'il partage tant que cela est bénéfique pour lui il accepte de partager ses informations.
+
+Il voudrait avoir un système qui lui permettrai de trouver et terminer rapidement les courses lorsqu'il n'a pas le temps.
+
+
+IMAGE --> Romain pichler Persona rempli
+
+Donc si on regarde bien on peut rélever que notre utilisateur devra avoir les caractéristiques suivantes:
+
+- Ne connaît pas ou fréquente pas souvent un magasin
+- Possède un smartphone est alaise dans son utilisation
+- Est pressé et n'a pas beaucoup de temps
+- Etudiant 
+
+Cela nous amenez à penser que ce seront les jeunes entre 16 et 30 ans qui seront la cible principal du produit car c'est eux qui possèdent ces caractéritiques.
+
+
+
 D.	Clients
  
-Pour ce qui est de la cible clients, en terme business, nous ciblons les supermarchés, hyper-marchés, car ce sont ces types d’enseignes qui sont plus confrontes au problème de repérage d’articles dans une grande surface et fluidité de clients.
+Pour ce qui est de la cible clients, en terme business, nous ciblons les supermarchés, hyper-marchés, car ce sont ces types d’enseignes qui sont plus confrontes au problème de repérage d’articles. 
  
-Nous mettrons en avance le succès et le nombre d’utilisateur de notre applications pour que les enseignes puissent injecter des pubs et des promotions durant le parcours de l’utilisateur.
- 
-Dans le cas où les enseignes ne sont pas interessé pour mettre des pubs dans notre applications nous envisageron de mettre l’application en mode freemium, dans ce cas le client de l’appplication sera le propre utilisateur, qui paiera pour des fonctionnalités attrayantes. ( dire un exemple de fonctionnalité )
- 
+Initialement j'avais pensé à cibler utiliseurs en tant que clients de l'application, sera ce serait traduit pas l'achat de l'application lors du téléchargement ou alors un abonnement en mode freemium. 
+
+Deux problème ont surgit lors de l'analyse de cette première option. La première est qu'elle limite l'accès à certains utilisateurs et puisqu'on établie un paternaria avec les enseignes, elles voudront qu'un maximum d'utilisateur ai accès à l'application car pour eux ce sont des potentielles clients, donc il ne seront pas d'accord sur ce choix.
+
+L'autre problème est que ce type de cible n'est pas en accord avec notre vision, à savoir donner la même niveau d'accéssibilité aux usagers de l'application.
+
+C'est pourquoi j'ai choisi d'écarter cette première possibilité. Ce qui nous reste donc est de cibler les propres enseignes, pour cela nous devons arriver avec une valeur de proposition, quelque chose qu'on peut vendre et qui a une valeur ajouté pour les entreprises.
+
+Nous pensons que la plus grande valeur pour l'entreprise sera les données de la liste de courses. 
+
+Cette donnée va leur permettre d'analyser le comportement d'un utilisateur et prédir ces achats. Ce qui permettra à l'enseigne de voir comment un utilisateur tape, nomme, écrit un certain produit, commment il classe et ordonne sa liste, la fréquence des produits qu'il veut acheter, le type de consommateur etc ...
+
+On pense qu'on la donné brute aporterai un profit de base, mais si on effectue une analyse pardessus, cela pourrait augmenter la valeur de vente.
+
+L'argument de vente qu'on donnera aux entreprises est que nous allons en faire en sorte d'obtenir une donnée "pur", c'est à dire que cette donnée est la plus sincère et vrai possible, l'utilisateur.
+
+L'un des problème dans le big data ou l'analyse de données est l'analyse de données biaisées. La donnée peut perdre en qualité quand l'utilisateur est influencé. Si on suit notre vision et on arrive a faire que l'application centralise toutes les enseignes, une entreprise n'aura pas le total control sur l'influence. Les données aurant un valeur pur, puisque l'utilisateur sera libre sur ses choix.
+
+Alors on pourra aussi dire que l'entreprises possèdent déjà les donnée de comportement avec les sites internet, drive, scaner etc, mais ces dispotifis sont controlés par la même enseigne qui les met en place et le client est souvent influencé par les différent types de stratégies de l'enseigne, les images, les publicités, les prix etc ... on revient donc au même problème, des données biaisées.
+
+
  
 E. 	Produit
  
+Le besoin que nous avons relevé peut être traité avec une application mobiles.
+
+Toute personne entre 16 et 50 ans possède un smartphone. L'application consommera les données du magasin pour la liste des produits, l'affichage de la carte du magasin et pour faire la géolocalisation indoor.
+
+Dans la suite de ce document nous détaillront le MVP du produit et les différentes fonctionnalités
+
+Fonctionnalités 
+
+- Visioner un parcours optional selon la liste de courses rentré
+- Digitaliser une liste de courses papier pour gagner du temps
+- Geolocalisation à l'intérieur du magasin être parcours en temps réel
+- Information des promotions et produits
+
 Le produit devra être une application mobile. Le but est de rentrer un liste de courses et de selectionner un magasin où l’on souhaite faire ces courses. L’application proposera ensuite un parcours qui sera le plus optimisé possible selon la liste des courses, si des produits sont dans le même rayon, distance entre chaque produit etc.
  
 II.            Business
@@ -111,13 +166,26 @@ Voir les entreprises qui travaillent dans le parcours client des supermarchés
 CoWork.io entreprise de géolocalisation indoor
 Beacons
 Mapwize
- 
+Shopkick (USA)
+Insteo
+
 Notifications
 Hanshow
  
 https://www.usine-digitale.fr/article/chariot-connecte-geolocalisation-des-produits-hanshow-imagine-le-magasin-du-futur.N741194
  
  
+Applications 
+C-où
+
+Utilisateurs/Magasin
+
+LeRoy Merlin
+Auchan
+Carrefour
+Galeries la Fayette
+
+
  
  
  
@@ -342,4 +410,3 @@ Bibliographie
 Remerciements
  
 Annexes
-
