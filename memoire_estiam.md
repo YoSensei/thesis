@@ -159,11 +159,8 @@ II.            Business
  
 Cette partie demontre la démarche d’analyse pour le marché, le choix de monétisation. L’analyse des acteurs qui sont dans le même secteur, faiblaises et opportunités futures.
  
-F. 	Étude de marché
-o   France et international
-Voir les entreprises qui travaillent dans le parcours client des supermarchés
- 
-CoWork.io entreprise de géolocalisation indoor
+F. 	Étude de marché 
+
 Beacons
 Mapwize
 Shopkick (USA)
@@ -192,13 +189,67 @@ Galeries la Fayette
 G.	Concurrents directs/indirects
 o   Liste et comparaison
 Faire une comparaison
+
+--> France
+
+# Mapwize
+Mapwize est la plateforme de cartographie d'intérieur pour créer des nouveaux services digitaux dans les bâtiments mais également les évenements.
+
+Ils proposent une SDK Mapwize pour intégrer le cartographie sur les application mobiles et web
+
+Cartographie en ligne, possibilité de mettre des points de repere, compte admnistrateur de la platforme et langues. Les prix vont de Grauit à 500e/mois. Il existe une offre Business mais il faut prendre contacte pour connâitre le prix.
+
+Clients: Auchan et Cora
+Marché: Logiciels informatiques
+BM: Abonnement sans engagement de 50, 200 ou 500€/mois
+Implémentation: France
+
+#Carrefour application C-où
+
+Utilisé avec un smartphone et montre connectée
+Geolocalisation, catalogue, recettes
+Implémentation: Villeneuve-la-Garenne (1 seul)
+
+Clients: 3 000
+
+Points très important: 
+« Les retours clients révèlent néanmoins qu'ils utilisent l'application essentiellement pour être guidé vers un produit à la fois », relève Arnaud Masson dirigeant de Insiteo, société conceptrice de la solution.
+
+# Auchan
+Technologie: Etiquettes connectés
+Partenaires: Hanshow Technology
+Geolocalisation, Scan produit (informations)
+
+Auchan de Faches-Thumesnil -> utilisation des bleuthoth pour envoyer des notifications
+
+
+#Galeries la fayette
+
+Implémentation: Galeries Lafayette Paris-Haussmann
+Geolocalisation des marques/boutiques, partage de position (trouver un proche par exemple)
+14 langues disponibles
+Il leur faut wifi 
+
+--> International
  
+# Shopkick
+
+USA
+permet par la géolocalisation en s'identifiant de recevoir des messages personnalisés sur son téléphone mobile pendant son parcours de shopping.
+
+Accumulation de point de réduction
+
+Implémentation: 600 magasins et 100 centres commerciaux
+Clients: Macy's, American Eagle, Best Buy, Sports Authority et Simon Malls
+
+
+
  
 H.	Taille de marché
  
 Clients qui vont acheter. Auchan carrefour, franprix, leader. En euros prix de la solution. On se donne comme zone geographique la région parisienne.
  
-I.  	Utilisateurs potentiels
+I.  	Clients potentiels
  
 J’ai décidé de cibler les utilisateurs de l’application en tant que clients et non pas les entreprises ou enseignes. Dans cette partie je vais démontrer mon analyse et réflexion qui s’est terminé par choisir cette option.
  
@@ -245,15 +296,28 @@ Pour le prix d’une pub d’une entreprise dans l’application. Exposer cette 
 J.      Menaces
  
 Le fait que les entreprise ne vont pas mettre de pub dans l’application.
+
+Faire attention
+L'envoi de notifications ou d'offres personnalisées ne se fait pas non plus d'un coup de baguette magique. La balise n'est après tout qu'un simple émetteur qui permet de localiser le smartphone du consommateur. C'est l'application via l'utilisation d'algorithmes sophistiqués qui calcule sa position. Tout le travail de mise en avant de contenus ciblés réside ensuite dans le savoir-faire des équipes marketing équipées de plateformes CRM et de gestion des campagnes.
+
+Le pire des cas serait que les entreprises soient intéressé à l'idée de récupèrer des données pures d'un client, mais ils se pourrait qu'il ne nous fasse pas confiance dans l'analyse des données et préférent simplement faire les analyses par eux même.
+
+Comme nous l'avons dit, une autre menace serait que ces enseignes qui possèdent plus de moyens et budgets veuille faire tout le système par eux même.
  
 K. 	Opportunités
- 
-Se développeur sur d’autres secteurs du retail.
-Développement d’un moyen de paiment plus rapide, comme les chariots connectés en soit revolutionner la façon d’acheter.
+
+Etre plus présent le monde du retail
+
+Cela pourrait se traduire par 
+Le développement et déploiement sur d’autres secteurs du retail, comme le magasin de pret-à-porter, sport
+Développement d’un moyen de paiment plus rapide, comme les chariots connectés en soit revolutionner la façon d’acheter
+
+Le parcours utilisateur en profitant des la réalité augmenté, des l'intélligence artificielle, des agents personnels etc...
+
  
 Récolter les habitudes des utilisateurs
  
-L.  	Modèle économique (comment gagner de l’argent)
+L.  Modèle économique (comment gagner de l’argent)
 o   Type de vente (free, freemium)
 o   Prix pour les entreprises etc…
 o   Rentabilité
@@ -333,12 +397,37 @@ Et deux qu’ils sont incités à acheter les promotions car l’affichage sur u
 Autre chose nous mettront en place un outils d’analyse de la liste des courses pour leur montrer l’intêret et valeur des données de la liste de courses.
  
 Si nous arrivons à faire correctement cette stratégie, les enseignes seront interessé et plus ouvertes à un proposition de partenariat.
+
+# Prévision financières
+
+
 III.          Aspect juridique
  
 N.    Obstacles/Difficultés potentielles
  
-Se documenter sur le fait de collecter les données des prix et emplacement des articles dans un magasin.
+ Dans notre stratégie de POC, nous avons évoqué le fait qu'on récolterai les informations nous mêmes en se déplaçant à l'intérieur des enseignes. Juridiquement peut être qu'on aurai pas le droit sur le fait de relever la map du magasin, pour les produits et prix je suis plus rassuré. Se documenter sur le fait de collecter les données des prix et emplacement des articles dans un magasin.
  
+Puisque nous ne proposant pas une inovation, nous ne sommes pas bloqué par des problèmes de droits et brevets.
+
+Il faudra penser à protéger le nom du produit
+
+Il s'agit tout d'abord des documents juridiques d'information à destination de l'utilisateur final (l'internaute) (BtoC /BtoB). On trouve :
+
+des mentions légales permettant d'identifier complètement le développeur/éditeur ; 
+des Conditions Générales de Vente (CGV) ou Conditions d'Utilisation (CGU)  ou encore un Contrat de Licence d'Utilisateur Final  (CLUF) ;
+Enfin une charte ou une politique de confidentialité (RGPD) concernant la gestion des données personnelles des utilisateurs est souvent prévue.
+Si les grandes sociétés accordent une attention particulière à ces documents juridiques, c'est moins fréquent pour les petites structures. C'est pourtant sur l'éditeur de l'application que repose la responsabilité juridique principale et non, en principe, sur l'intermédiaire. 
+
+
+Penser à la récolte des données et le fait de prévenir l'utilisateur les données qui seront utilisés par l'entreprise dans quel but etc.
+
+Anonymiser les données
+
+Etablir un contrat avec les clients (enseignes) pour déterminer les obligation pour chaucun des parties, facturation etc.
+
+
+https://www.reynaud-avocat.com/le-cadre-juridique-des-applications/
+
 IV.          Étude technique
  
 O.    Étude du besoin
