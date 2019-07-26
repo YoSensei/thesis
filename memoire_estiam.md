@@ -1,24 +1,35 @@
 Plan de rédaction mémoire de fin d’études – Estiam
- 
-Ma problématique porte sur « Comment changer le parcours client (acheteur) dans les magasins/supermarchés »
- 
-Une première solution a déjà été évoquée avec Marc, qui serai de faire gagner du temps aux clients des supermarchés en optimisant leur parcours à l’intérieur du magasin.
- 
- 
-Tables de matières
- 
- 
- 
+
+
 Introduction
-« L'accroche »
--        La présentation projet, l'intérêt du projet
-Dans le cadre d’un la fin d’études de master Expert Informatique, le projet consiste à trouver un problématique qu’on peut rencontrer dans le domaine du travail, chez sous, ou dans notre vie quotidienne tout simplement. Le but est d’évaluer notre faculté à identifier l’existence des problèmes aux quelques les personnes se confrontent ainsi qu’évaluer notre capacité d’analyse pour les résoudre de façon technique et théorique, voire même de mettre en place la solution de ce problème.
-La problèmatique que j’ai choisie porte sur « Comment innover le parcours client dans les magasins/supermachés », plus précisément comment permettre à un client de gagner du temps quand durant son parcours dans le magasin. Je mets au centre de la problématique le client du magasin, ce partie est important à préciser, afin de comprendre la suite de ma réflexion. La problématique est à l’origine une difficulté personnelle au quelle je me suis confronté dans ma vie quotidienne et certaines personnes de mon entourage partagent cette difficulté aussi. J’ai donc proposé cette problématique pour l’analyser et voir comment on peut la résoudre.
-Un autre point intéressant du projet ou mémoire est aussi l’innovation, car il s’agit ici de démontrer que cette solution « faire gagner du temps aux clients » peut aussi apporter un profit au magasin même si l’idée est opposée aux stratégies commerciales des vendeurs, car ils cherchent que clients restent plus longtemps dans le magasin pour qu’ils soient tenté de consommer plus.
-Détail de la problématique
--        Le cadre de l'étude et la problématique
-« L'annonce du plan »
- 
+
+Dans le cadre de fin d’études, pour l’obtention du titre Expert Informatique, nous devons réaliser un mémoire. Celui-ci consiste à trouver une problématique que nous pouvons rencontrer dans notre lieu de travail, notre lieu d’habitat, école, enfin dans notre vie quotidienne tout simplement. Le but est d’une part évaluer notre faculté à identifier l’existence de problèmes auxquelles des personnes sont confrontées, d’autre part à évaluer notre capacité d’analyse pour les résoudre de façon technique et théorique le problème analysé, voire même de mettre en place la solution à ce problème.
+La problématique que j’ai choisie de développer porte sur « Comment innover le parcours client dans les magasins/retail », et à l’intérieur de cette problématique j’ai souhaité traiter plus précisément la question « comment permettre à un client de gagner du temps durant son parcours dans le magasin ». Je mets au centre de la problématique le client du magasin, cette partie est importante à préciser, afin de comprendre la suite de ma réflexion. La problématique est à l’origine une difficulté personnelle à laquelle je me suis confronté dans ma vie quotidienne et certaines personnes de mon entourage partagent cette difficulté aussi. J’ai donc proposé cette problématique pour l’analyser et voir comment on peut la résoudre.
+Un autre point intéressant du projet ou mémoire, c’est la difficulté à démontrer que cette solution « faire gagner du temps aux clients » peut aussi apporter de la valeur au magasin même si l’idée est opposée aux stratégies commerciales des vendeurs, car ils cherchent que clients restent plus longtemps dans le magasin pour qu’ils soient tenté de consommer plus.
+Dans la suite de ce document je vais donc développer ma réflexion sur la problématique évoquée précédemment, d’abord en commençant par définir la vision du produit, une fois que nous aurons une idée plus claire sur les motivation, priorités et objectifs nous aborderons la partie business qui se réfère généralement à l’analyse du marché, stratégie de vente et model économique. Ensuite nous montreront l’observation d’un point de vue juridique, contrat, règles, conditions générales d’utilisation. Nous devrons également parler de l’aspet technique, étude et réalisation et enfin nous terminerons par la partie management, c’est-à-dire la façon dont nous pensons gérer le projet, type de gestion de projet, ressources nécessaires et planning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Table des matières
 Plan de rédaction mémoire de fin d’études – Estiam.. 1
 Introduction.. 1
@@ -45,394 +56,491 @@ Annexes. 4
  
  
  
- 
- 
- 
- 
- 
- 
- 
-I.              Vision
- 
-Dans cette partie nous allons montrer le secteur ou le métier dans lequel la problématique va être traitée, le type d’utilisateur qui fera usage de la solution final, le client ou cible, de même on abordera en détail le besoin de l’utilisateur et enfin, après l’analyse de ces points on donnera la description de la solution choisie
- 
-A.    Besoin
- 
- 
-Imaginons un client qui n’a pas envie de perdre du temps dans un magasin car il d’autres obligations comme son boulot, rendez-vous, études etc… mais qui ne connaît pas le magasin où il s’apprête à faire ses achats. Ce client sera souvent confronté au problème où il aura du mal à trouver les articles, au final bien sûr qu’il trouvera tous les produits, mais il aura passé plusieurs fois devant le même rayon, il n’aura pas vu que l’un de ces produits était juste à côté et l’autre pris en dernier, il aura mis plus de temps à faire ses achats que prévu.
- 
-Nous pensons que cela génère du stress chez le client. Les clients sont perdus, on les voit tourner la tête de tous les côtés quand ils cherchent un produit, ils s’arrêtent au milieu des voix, ils sont stressés car ils tournent en rond, bref autant dire qu’ils perdent un temps précieux.
- 
-Le besoin consiste donc à permettre aux utilisateurs de réduire le temps passé pour trouver les articles, en parallèle cela va aussi réduire le stress de ces personnes.
- 
-B.    Métier
- 
- 
-Le produit sera utilisé dans le cadre du « Retail », c’est-à-dire dans le commerce/vente. Je porte la problématique plus précisément dans les supermarchés alimentaires. On peut penser que plus tard, si l’application à du succès elle pourra s’étendre sur d’autres types de commerce, comme dans le prêt à porter, le bricolage, magasin de sport et bien d’autres.
- 
-C’est dans les supermarchés et marquets qu’on développera l’utilisation de la solution.
- 
-C.     Utilisateur cible
- 
-On sait que plusieurs solutions permettent à un consommateur de gagner du temps, avec les solutions d’acheter en ligne, le drive, les scan automatiques etc.
- 
-Mais malgré ces solutions, il existe toujours des clients qui vont se déplacer pour faire des courses.
- 
-Prêt de 75% des français préfèrent se déplacer en magasin pour faire leurs courses alimentaires.
-
-IMAGE -> Statistique déplacement utilisateurs
-
-Pour avoir une vision de notre futur produit et avoir une cible utilisateur plus précise on va effectuer une analyse d’un « persona ».
-
- 
-C.1 Construction d’un persona
- 
-Maxime, étudiant de 5ème année en informatique qui a 24 ans et travail en alternance sur Paris.
-
-Son problème est que parfois quand il a besoin de faire des courses dans un magasin qu’il ne connâit pas ou ne fréquente pas souvent il n'arrive pas à trouver des articles et tourne en rond et cela le stress quand il est pressé. Comme il ne fait des grandes courses qu’une fois par mois dans les supermarchés il ne connaît pas forcément tous les rayons, alors il est tout de même perdu.
-
-Cela lui arrive de préfèrer gagner du temps plutôt que payer un peu plus cher, si cela lui permet d’utiliser ce temps dans une autre activité.
-
-Il est assez alaise avec les nouvelles technologies
-Il n'est pas assez regardant sur les données qu'il partage tant que cela est bénéfique pour lui il accepte de partager ses informations.
-
-Il voudrait avoir un système qui lui permettrai de trouver et terminer rapidement les courses lorsqu'il n'a pas le temps.
-
-
-IMAGE --> Romain pichler Persona rempli
-
-Donc si on regarde bien on peut rélever que notre utilisateur devra avoir les caractéristiques suivantes:
-
-- Ne connaît pas ou fréquente pas souvent un magasin
-- Possède un smartphone est alaise dans son utilisation
-- Est pressé et n'a pas beaucoup de temps
-- Etudiant 
-
-Cela nous amenez à penser que ce seront les jeunes entre 16 et 30 ans qui seront la cible principal du produit car c'est eux qui possèdent ces caractéritiques.
 
 
 
-D.	Clients
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vision de produit
+
+
+Définir une vision de produit consiste à déterminer un cadre pour la suite du projet, détailler et clarifier les objectifs cela dans le but de donner un sens d’orientation pour le développement du produit souhaité.
+
+La vision de produit se définie en analysant le besoin des utilisateurs, en établissant une cible d’utilisateurs plus précise, ensuite en définissant le produit qui répondra à ces besoins, les fonctionnalités, le type de dispositifs et la façon dont ça fonctionnera globalement. D’autre part en regardant la stratégie au niveau business, mais cette dernière partie ne sera pas abordé dans la partie Vision de produit, elle sera traitée dans une section dédiée spécialement à ce sujet. 
+
+
+Besoin
  
-Pour ce qui est de la cible clients, en terme business, nous ciblons les supermarchés, hyper-marchés, car ce sont ces types d’enseignes qui sont plus confrontes au problème de repérage d’articles. 
+Imaginions une personne qui doit faire quelques courses dans un supermarché ou un market mais qui n’a pas beaucoup de temps car il a un rendez-vous, il veut rentrer rapidement chez lui, n’aime pas faire des courses, ou tout simplement qui n’a pas envie de perdre du temps pour tout autre raison, de plus cette personne s’apprête à faire ces courses dans un magasin qu’elle connaît pas, ou quelle fréquente très peu. Ce type de client sera souvent confronté au problème où il aura du mal à trouver les articles, il ne verra pas son produit du premier coup, il ne verra pas qu’un autre produit se trouvé juste à côté ou dans le rayon qui est côté, au final ses achats lui feront perdre un temps précieux. 
+
+Je pense que la plupart des gens ont déjà vécu ce type de situation. En donc le besoin est réel pour une partie des clients de ces magasins.
+
+Le besoin des utilisateurs consiste donc à gagner du temps durant les courses en trouvant plus rapidement les produits dans un supermarché ou market.
+
+Le produit sera utilisé dans le cadre du « Retail », c’est-à-dire dans le commerce/vente. Je porte la problématique plus précisément dans le commerce alimentaire. On peut penser que plus tard, si le produit a du succès nous pourrons l’étendre sur d’autres types de commerce, comme dans le prêt à porter, le bricolage, magasin de sport et bien d’autres.
+
+
+Utilisateur cible
  
-Initialement j'avais pensé à cibler utiliseurs en tant que clients de l'application, sera ce serait traduit pas l'achat de l'application lors du téléchargement ou alors un abonnement en mode freemium. 
+On sait que plusieurs solutions permettent à un consommateur de gagner du temps, avec les solutions qui sont, d’acheter en ligne, le drive, les scan automatiques, mais malgré ces solutions, il existe toujours des clients qui vont se déplacer pour effectuer les courses physiquement. Globalement c’est ce type de client qui utilisera notre produit.
 
-Deux problème ont surgit lors de l'analyse de cette première option. La première est qu'elle limite l'accès à certains utilisateurs et puisqu'on établie un paternaria avec les enseignes, elles voudront qu'un maximum d'utilisateur ai accès à l'application car pour eux ce sont des potentielles clients, donc il ne seront pas d'accord sur ce choix.
+Comme le montre l’étude faite par OpinionWay en 2017, sur près de 1000 personnes interrogés, 75% des français préfèrent se déplacer en magasin pour faire leurs courses alimentaires, contre 23% qui préfèrent l’achat sur internet et 17% pour le drive. Cela veut dire que nous avons bon pourcentage de potentiels utilisateurs à cibler.
 
-L'autre problème est que ce type de cible n'est pas en accord avec notre vision, à savoir donner la même niveau d'accéssibilité aux usagers de l'application.
+ 
+Source : OpinionWay – Les français est les courses – Avril 2017
 
-C'est pourquoi j'ai choisi d'écarter cette première possibilité. Ce qui nous reste donc est de cibler les propres enseignes, pour cela nous devons arriver avec une valeur de proposition, quelque chose qu'on peut vendre et qui a une valeur ajouté pour les entreprises.
 
-Nous pensons que la plus grande valeur pour l'entreprise sera les données de la liste de courses. 
 
-Cette donnée va leur permettre d'analyser le comportement d'un utilisateur et prédir ces achats. Ce qui permettra à l'enseigne de voir comment un utilisateur tape, nomme, écrit un certain produit, commment il classe et ordonne sa liste, la fréquence des produits qu'il veut acheter, le type de consommateur etc ...
+Construction d’un Persona
 
-On pense qu'on la donné brute aporterai un profit de base, mais si on effectue une analyse pardessus, cela pourrait augmenter la valeur de vente.
+Maintenant, nous voulons être plus précis sur la cible d’utilisateurs, pour avoir une meilleure vision de notre futur produit, on va procéder à une analyse de « persona ». La définition d’un « persona » consiste à décrire un utilisateur qui pourrait utiliser le produit, il faut alors donner ses caractéristiques, comme son âge, son métier, ses études, mais aussi ses motivations et problèmes, récolter ses habitudes ou comportements. En général on essaye de définir plusieurs « PERSONAS » pour trouver quelques points en commun et ainsi obtenir un type d’utilisateur cible plus clair. 
 
-L'argument de vente qu'on donnera aux entreprises est que nous allons en faire en sorte d'obtenir une donnée "pur", c'est à dire que cette donnée est la plus sincère et vrai possible, l'utilisateur.
+Nous allons simuler un type de client, pour recueillir ses informations sur son utilisation, besoin, problèmes et caractéristiques personnelles.
 
-L'un des problème dans le big data ou l'analyse de données est l'analyse de données biaisées. La donnée peut perdre en qualité quand l'utilisateur est influencé. Si on suit notre vision et on arrive a faire que l'application centralise toutes les enseignes, une entreprise n'aura pas le total control sur l'influence. Les données aurant un valeur pur, puisque l'utilisateur sera libre sur ses choix.
+« Maxime, étudiant de 5ème année en informatique qui a 24 ans et travail en alternance et travail comme développeur web sur Paris, il habite à Saint Cyr L’École.
 
-Alors on pourra aussi dire que l'entreprises possèdent déjà les donnée de comportement avec les sites internet, drive, scaner etc, mais ces dispotifis sont controlés par la même enseigne qui les met en place et le client est souvent influencé par les différent types de stratégies de l'enseigne, les images, les publicités, les prix etc ... on revient donc au même problème, des données biaisées.
+Son problème est que parfois quand il a besoin de faire des courses dans un magasin qu’il ne connait pas ou ne fréquente pas souvent, il n'arrive pas à trouver des articles facilement et cela le stress et peut même l’énerver. Comme il ne fait des grandes courses qu’une fois par mois dans les supermarchés il ne connaît pas forcément tous les rayons.
+
+Il est assez alaise avec les nouvelles technologies. Il n'est pas assez regardant sur les données qu'il partage tant que cela est bénéfique pour lui il accepte de partager ses informations.
+
+Il voudrait avoir un système qui lui permettrai de terminer rapidement les courses », mais ne voudrait pas se retrouver avec presque le même système par enseigne, c’est-à-dire qu’il voudrait avoir un seul dispositif qui répond à son problème mais sans utiliser un moyen spécifique pour chacune des enseignes.
+
+Il ne veut pas que les enseignes le harcèlent de pubs comme à chaque fois. Il ne veut pas se sentir manipulé ou influencé encore une fois par les magasins.
 
 
  
-E. 	Produit
- 
-Le besoin que nous avons relevé peut être traité avec une application mobiles.
 
-Toute personne entre 16 et 50 ans possède un smartphone. L'application consommera les données du magasin pour la liste des produits, l'affichage de la carte du magasin et pour faire la géolocalisation indoor.
 
-Dans la suite de ce document nous détaillront le MVP du produit et les différentes fonctionnalités
+Donc si on regarde bien cette description, on peut relever les caractéristiques suivantes que l’utilisateur pourra avoir :
 
-Fonctionnalités 
+-	Possède un smartphone et est alaise avec son utilisation
+-	Il est étudiant
+-	Se situe dans un milieu urbain
 
-- Visioner un parcours optional selon la liste de courses rentré
-- Digitaliser une liste de courses papier pour gagner du temps
-- Geolocalisation à l'intérieur du magasin être parcours en temps réel
-- Information des promotions et produits
+Par rapport au contexte :
 
-Le produit devra être une application mobile. Le but est de rentrer un liste de courses et de selectionner un magasin où l’on souhaite faire ces courses. L’application proposera ensuite un parcours qui sera le plus optimisé possible selon la liste des courses, si des produits sont dans le même rayon, distance entre chaque produit etc.
- 
-II.            Business
- 
-Cette partie demontre la démarche d’analyse pour le marché, le choix de monétisation. L’analyse des acteurs qui sont dans le même secteur, faiblaises et opportunités futures.
- 
-F. 	Étude de marché 
+-	Il est dans une situation où il n’a pas beaucoup de temps
+-	Il ne connaît pas ou fréquente très peu le magasin où il souhaite se rendre
 
-Beacons
-Mapwize
-Shopkick (USA)
-Insteo
+Par rapport au problème, ce qu’il souhaite :
 
-Notifications
-Hanshow
- 
-https://www.usine-digitale.fr/article/chariot-connecte-geolocalisation-des-produits-hanshow-imagine-le-magasin-du-futur.N741194
- 
- 
-Applications 
-C-où
+-	Veut trouver rapidement les articles
+-	Ne veut pas se retrouver avec plusieurs solutions qui répondent au même besoin
+-	Ne veut pas se sentir contrôlé par les enseignes
 
-Utilisateurs/Magasin
-
-LeRoy Merlin
-Auchan
-Carrefour
-Galeries la Fayette
 
 
  
+Template Roman Pichler : Persona
+
+
+
+
+
+
+
+
+Choix de la cible
+
+Nous pensons que les principaux utilisateurs à cibler seront des jeunes. Par ailleurs nous nous interrogeons sur l’intervalle d’âge de nos futurs utilisateurs potentiels.
+D’après l’étude faite par OpinionWay sur la question « Souhaiteriez-vous pouvoir disposer des innovations ou nouveaux services suivants ? » 49% et 45% des personnes interrogés entre 18 et 35 ans ont répondu qu’ils souhaitent avoir un système de géolocalisation sur leur téléphone en fonction de leur liste de courses.
+
  
+Source : OpinionWay – Les français est les courses – Avril 2017
+
+
+D’autre part, on sait aussi que les plus gros taux d’utilisateurs de smartphones se trouvent entre 18 et 35 ans. Selon le document « Baromètre du Numérique 2018 » le plus gros de taux d’équipement en Smartphone selon l’âge, se trouve entre 18-24 et 25-39 ans, avec 98% et 92% respectivement. Cela nous donne plus de pistes sur la moyenne d’âge de nos potentiels utilisateurs.
+
  
-G.	Concurrents directs/indirects
-o   Liste et comparaison
-Faire une comparaison
 
---> France
+abo.societenumerique.gouv.fr – Juin 2018 - 2214 personnes interrogés
 
-# Mapwize
-Mapwize est la plateforme de cartographie d'intérieur pour créer des nouveaux services digitaux dans les bâtiments mais également les évenements.
 
-Ils proposent une SDK Mapwize pour intégrer le cartographie sur les application mobiles et web
+Décision
 
-Cartographie en ligne, possibilité de mettre des points de repere, compte admnistrateur de la platforme et langues. Les prix vont de Grauit à 500e/mois. Il existe une offre Business mais il faut prendre contacte pour connâitre le prix.
+Grâce à la construction d’un « persona » ou type d’utilisateur ainsi qu’aux données récoltés dans plusieurs études, nous avons pu donner plus sens à notre réflexion, ce qui nous a amené à décider que la cible principale de notre produit sera une population jeune, qui aura un âge entre 18 et 30 ans car c'est eux qui collent plus aux caractéristiques relevées.
 
-Clients: Auchan et Cora
-Marché: Logiciels informatiques
-BM: Abonnement sans engagement de 50, 200 ou 500€/mois
-Implémentation: France
+Autre point important à relever pour la suite de notre vision de produit, c’est le besoin de l’utilisateur, en termes d’utilisation il ne voudrait pas se retrouver avec plusieurs systèmes qui feront tous la même chose de plus il est important pour l’utilisateur de ne pas se sentir contrôlé par le magasin.
 
-#Carrefour application C-où
 
-Utilisé avec un smartphone et montre connectée
-Geolocalisation, catalogue, recettes
-Implémentation: Villeneuve-la-Garenne (1 seul)
+Clients
+ 
 
-Clients: 3 000
+Pour ce qui est de la cible clients, en terme business, nous ciblons les supermarchés, hyper-marchés, car ce sont ces types d’enseignes qui sont plus confrontés au problème de repérage d’articles. 
 
-Points très important: 
+Avant de débuter la réflexion qui a été porté sur le choix des clients, il est important de rappeler une partie de la vision de produit qui a été faites auparavant. Il est important pour l’utilisateur d’avoir une application unique (centralisation des magasins) et se sentir libre dans son utilisation, ne pas être harcelé de pubs ou des méthodes d’influence.
+
+Pour que notre produit fonctionne efficacement et qu’on puisse proposer une bonne expérience utilisateur, il est très important d’obtenir les données de positionnement des produits et un accès aux locaux pour permettre une géolocalisation, cette contrainte nous rend très dépendant des enseignes, dans notre stratégie (qui sera abordé dans la section « Business ») nous proposeront un échange de données entre la liste des courses des utilisateurs et les données du magasin. 
+ 
+Ce qui sera donc proposé comme valeur à gagner pour l’entreprise est donc la donnée d’utilisateur, mais pour l’instant nous n’obtenons pas de gain financier. Donc maintenant il s’agit de voir de quelle façon pouvons-nous gagner de l’argent, est-ce en vendant et ciblant l’utilisateur du produit comme client ? ou alors en proposant un service ou produit en plus pour le magasin. ?, c’est cette question qui sera analysé après cette introduction.
+
+Commençons par étudier le cas où nous ciblons les utilisateurs entant que clients, j’ai étudié plusieurs types de monétisation pour ce type situation.
+
+Cibler les utilisateurs
+
+Publicité ou sponsoring
+
+Un annonceur paye l’application pour avoir une visibilité sur l’ensemble des bannières publicitaires de l’application mobile. Nous ne pourrons pas proposer ce modèle car ce modèle nécessite un fort trafic et fréquence d’utilisation, bien que nous soyons confiants sur l’utilisation fréquente, cette fréquence n’est pas aussi forte qu’un réseau social par exemple où on ouvre l’application plusieurs fois par jour. Nos utilisateurs ouvriront l’application ponctuellement, seulement quand ils auront besoin de faire des courses et cela n’arrive pas plus de 2 fois par jour par exemple. Donc ce modèle n’aura pas assez de poids pour démarcher un sponsoring.
+
+Le téléchargement payant
+
+Cette solution ne me plait pas car, je voudrais que toute personne puisse avoir accès au produit, par ailleurs il est difficile de convaincre des utilisateurs de payer pour une application donc ils ne peuvent pas l’essayer avant.
+
+Autre point négatif est que les stores prélèveront une commission de 30% sur chaque vente.
+
+Le mode Freemimum
+ 
+L’application existe en version basique utilisable et peut être téléchargé gratuitement, une version payante est aussi proposée, plus haut de gamme, avec plus de fonctionnalités. 
+ 
+Ce modèle possède un bon équilibre, on donne un plus grand accès, on ne charge pas l’application avec des publicité. On donnera accès à la fonctionnalité principale c’est-à-dire l’accès à un parcours optimal dans le magasin, une fois que l’utilisateur verra que ce système à une grande valeur. Il sera tenté d’avoir accès à d’autres fonctionnalités pour gagner encore plus de temps.
+ 
+Lorsqu’on effectue des courses pour le mois, faire la liste des courses demande plus de temps et travail puisqu’elle est conséquente, cela est un autre problème pour l’utilisateur, alors on proposera une fonctionnalité payante pour les cas d’utilisation d’achat du mois. Cela se traduira par une liste prédéfinie, un scanner pour renter digitaliser rapidement une liste en papier et c’est ce type de fonctionnalité qui sera proposé en mode Premium.
+ 
+Le détail avec ce modèle est de trouver l’équilibre entre accessibilité et frustration de l’utilisateur. Dans notre cas, l’utilisateur qui va faire des courses tous les mois se verra gêné par le fait de ne pas pouvoir avoir une liste de courses prédéfinie, car sa liste de courses prédéfinie ne restera que pour une durée déterminée et devra le client devra la refaire à chaque fois qu’il fera ses achats.
+
+L’idée de limiter l’utilisation après le téléchargement à 2 ou 3 utilisations gratuites et ensuite demander un paiement pour avoir l’accès en illimité a aussi été envisagé.
+
+Cibler les enseignes
+
+ 
+Puisque nous partons du principe que la donnée récoltée sera récoltée par les enseignes gratuitement (échange), nous devons trouver un autre service ou produit à vendre aux entreprises de commerce. J’ai eu l’idée de proposer à ces enseignes des analyses poussées, des modèles et représentation sur le comportement des utilisateurs grâce aux données de liste de courses, ce service appelé AssS (Analytic as a Service) ainsi les enseignes pourront anticiper des comportements et adapter leur stratégie de vente, changer leur approvisionnement etc. Bien évidement pour mettre en place ce modèle économique, il nous faudra avoir des experts en données dans notre équipe.
+
+
+Choix des clients
+
+Dans un premier temps j’avais opté par le choix de monétiser l’application en mode Freemium, mais j’ai ensuite remarqué que cela aurait comme impacte, la limitation en utilisateurs or cela pose problème aux deux parties, nous l’entreprise et l’enseigne.
+
+Cela s’opposerai à notre vision, nous voulons donner le niveau d'accessibilité aux usagers de l’application. Un autre point, c’est que nous souhaitons récupérer les données d’utilisateurs, pour cela il nous faut un maximum d’utilisation et mettre une restriction aurait comme conséquence une perte de données. La collaboration avec les enseignes est aussi un point bloquant, en effet elles voudront un maximum de trafic sur l’application car cela voudra dire des potentiels clients pour eux.
+
+C'est pourquoi j'ai choisi d'écarter le choix d’appliquer le Freemium. Ce qui nous amène à cibler les propres enseignes et vendre un service de conception, analyse de représentation des données.
+
+ 
+Produit
+ 
+On va répondre au besoin avec une application mobile. Le client devra rentrer une liste de courses et sélectionner un magasin où il souhaite faire ces courses. L’application proposera ensuite un parcours qui sera le plus optimisé possible par rapport à la liste des courses et à la distance entre chaque article.
+
+L'application consommera les données du magasin pour afficher la liste des produits et afficher le plan du magasin ainsi que pour faire la localiser les produits dans le magasin.
+
+Dans la suite de ce document nous détailleront le MVP du produit et les différentes fonctionnalités
+
+
+MVP (minimum viable product)
+
+Concevoir un MVP c’est définir toutes les caractéristiques minimales qui répondent au besoin de l’utilisateur dans les domaines de l’expérience utilisateur, l’utilité et la partie fonctionnelle, afin de créer ce produit, en agile on utilise le travail par itération, analyse du besoin, brainstorming (réunion d’idées), prototyper des maquettes et tester au près du client ou utilisateur.
+
+Voici une représentation pour se faire une idée sur ce qui est un bon produit MVP
+
+ 
+
+On doit s’efforcer pour répondre au besoin principal de l’utilisateur dès la première version et non pas lui proposer des fonctionnalités qui sont abouties à moitié sans répondre totalement au problème. 
+
+Dans la suite, je commence par dérouler la liste des toutes les fonctionnalités dont on voudrait proposer à l’utilisateur pour répondre à son besoin.
+   
+
+
+Afin de répondre au besoin initial de l’utilisateurs, les prochaines features qui se trouvent dans le backlog (pile de fonctionnalités), seront à nouveau étudiées une fois les premier feedback (retours) d’utilisateurs.
+
+MVP Final
+
+Nous avons fait le choix de ne pas intégrer encore la géolocalisation dans cette première version. Car le fait même de trouver l’article d’un emplacement sans être localisé à l’intérieur du magasin répond déjà au besoin du client. Après les retours des utilisateurs nous verrons de quelle façon intégrer la géolocalisation dans les magasins.
+
+
+Nous optons finalement pour les fonctionnalités suivantes qui devront être développées pour notre première version.
+
+  
+
+
+
+Business
+
+ 
+Cette partie démontre la démarche d’analyse du marché, le choix de monétisation, l’analyse des acteurs qui sont dans le même secteur, faiblisses et opportunités futures. Travailler sur le business plan est important pour voir si la solution est viable financièrement et déterminer les barrières d’entrée dans le secteur en question. Commençons par étudier les principaux acteurs du marché.
+ 
+Concurrents directs
+
+Contexteo SAS et Mapwize
+
+Contexteo est une société de logiciels, il propose une plateforme web appelé Mapwize pour l’intégration de la géolocalisation intérieur.
+
+Mapwize c’est une plateforme web qui cartographie l'intérieur des bâtiments grâce aux plans. Il est utilisé pour créer des services digitaux dans les bâtiments, il est aussi utile dans la mise en place d’évènements. Le produit est seulement commercialisé en France.
+
+Ils proposent une SDK Mapwize, pour intégrer l’interface de cartographie, localisation et géolocalisation sur les applications mobiles et web.
+
+Modèle de vente
+
+Mapwize propose des formules allant de 0euros à 500euros / mois, chaque formule se différencie par le nombre de points de repères qu’on peut répertorier dans le plan, nombre de comptes administrateurs et les langues disponibles.
+
+
+Carrefour - Application C-où
+
+Carrefour a déployé une application mobile qui propose de localiser des produits au sein du magasin. L’application possède les fonctionnalités suivantes :
+
+-	Les informations utiles du magasin : adresse, horaires
+-	La liste de courses : une fonctionnalité permettant de préparer sa liste directement chez soi en consultant le catalogue numérique des produits du magasin ou en scannant le code-barres d’un produit de son placard/frigo ;
+-	Le catalogue des promotions : consultable directement depuis l’application
+-	Les idées recettes : pour toutes les mères de famille qui se cassent la tête sur le menu de la semaine avant d’aller au supermarché avec une possibilité d’ajouter facilement tous les ingrédients d’une recette afin de ne rien oublier
+
+Pour le moment l’application est seulement fonctionnelle dans les magasins de Villeneuve-la-Garenne
+
+En termine de client, actuellement elle compte avec 3 000 utilisateurs, elle est seulement disponible sur iphone.
+
+Retour utilisateurs 
+
 « Les retours clients révèlent néanmoins qu'ils utilisent l'application essentiellement pour être guidé vers un produit à la fois », relève Arnaud Masson dirigeant de Insiteo, société conceptrice de la solution.
 
-# Auchan
-Technologie: Etiquettes connectés
-Partenaires: Hanshow Technology
-Geolocalisation, Scan produit (informations)
+Auchan
 
-Auchan de Faches-Thumesnil -> utilisation des bleuthoth pour envoyer des notifications
+Auchan développe et co-crée pour ses rayons une étiquette connectée en partenariat avec la start-up chinoise Hanshow Technology Ces étiquettes électroniques permettront d'aider les collaborateurs au quotidien. Lorsque le magasin est fermé au public, l'affichage numérique change pour fournir des informations utiles aux employés. Par exemple, pour indiquer quand les dates limites de consommation approchent ou encore les dates de livraison à venir. Enfin, ces étiquettes localisées afin d'aider les employés dans les réapprovisionnements.
 
+Pour les clients ces étiquettes leur permettront plus tard d’obtenir la localisation de chaque produit et des descriptions plus détaillés.
 
-#Galeries la fayette
+ Shopkick
 
-Implémentation: Galeries Lafayette Paris-Haussmann
-Geolocalisation des marques/boutiques, partage de position (trouver un proche par exemple)
-14 langues disponibles
-Il leur faut wifi 
-
---> International
+Shopkick est une application, disponible sur iPhone, qui permet par la géolocalisation en s'identifiant de recevoir des messages personnalisés sur son téléphone mobile pendant son parcours de shopping.
+Les messages passent bien sûr sur l'écran du mobile et aussi par l'intermédiaire d'un signal sonore (faible) qui vous permet de détecter une promotion personnalisée quand vous passez à côté.
+Dans un premier temps, près de 600 magasins et 100 centres commerciaux sont équipés et participent à l'aventure.
+Pour les principales enseignes américaines, il s'agit de Macy's, et Simon Malls qui gère un parc impressionnant de centres commerciaux.
  
-# Shopkick
+La particularité de l’application est les nombreuses fonctionnalités qui font gagner des points de réduction aux utilisateurs.
 
-USA
-permet par la géolocalisation en s'identifiant de recevoir des messages personnalisés sur son téléphone mobile pendant son parcours de shopping.
-
-Accumulation de point de réduction
-
-Implémentation: 600 magasins et 100 centres commerciaux
-Clients: Macy's, American Eagle, Best Buy, Sports Authority et Simon Malls
-
-
+Quand j’ai comme vision de proposer une seule application cela rentre dans le cadre de l’amélioration du parcours utilisateur. 
 
  
-H.	Taille de marché
- 
-Clients qui vont acheter. Auchan carrefour, franprix, leader. En euros prix de la solution. On se donne comme zone geographique la région parisienne.
- 
-I.  	Clients potentiels
- 
-J’ai décidé de cibler les utilisateurs de l’application en tant que clients et non pas les entreprises ou enseignes. Dans cette partie je vais démontrer mon analyse et réflexion qui s’est terminé par choisir cette option.
- 
-Le but et vision du produit est de proposer une seul application pour que l’utilisateur puisse choisir et avoir les fonctionnalités dans toutes les enseignes possibles. Je veux que l’utilisateur n’ai pas à choisir entre plusieurs application  de chaque enseigne pour avoir accès à ce genre de solution, que ce ne soit pas encore une fois de plus les entreprises qui ai un entière pouvoir sur les clients.
- 
-Le second choix pour le quel je ne propose pas de vendre un système ou concepte aux enseignes. Une entreprise cherche à faire rester le client le plus longtemps possible pour qu’il soit tenté d’acheter plus de produits or cette idée va à l’encontre de mon principe et but, c’est-à-dire de faire que l’utilisateur perde le moins de temps possible dans le magasin. La plus part des enseignes n’auraient pas accepté d’acheter un tel produit ou service.
- 
-Dans l’hypothèse que j’arrive maintenant à leur démontrer que mon concepte pourrait leur faire gagner de l’argent même si cette application est contraire à leur principe. Imaginon que le concept leur plait, ils seront retisants a partager leur donnée pour collaborer avec notre application centralisé. Ils voudront crée leur propre application pour avoir plus de contrôle.
- 
-On se confronte à deux problèmes. Comment faire en sorte que l’utilisateur soit avantagé et ne se trouve pas avec plusieurs applications par enseigne.
- 
-La première idée ou options qui était plus intuitive était de vendre cette solution aux entreprises. Imaginon que notre concept leur plait, car on aura réussi à leur montrer qu’ils peuvent gagner de l’argent avec celui-ci. Ils seront intéressé par notre concept. Alors on pourra propose de travailler avec eux afin de créer l’application, faire les installation de geolocalisation indoor, créer la représentation 3D du magasin etc. Mais le problème avec option est qu’il n’y aurait de solution centralisé, c’est-à-dire une seule application qui regrouperait les donnée de plusieurs enseignes. Chaque enseigne magasin aurait sa propre application, or notre but n’est pas seulement de vendre mais d’arrive à proposer une application centralisé à l’utilisateur, avec notre vision de produit cette option n’est plus valable.
- 
-Alors j’ai réfléchie à l’hypothèse où on cible comme client les utilisateurs de l’application.
- 
-On part du principe qu’on a réussi à leur prouver que le concepte fonctionne encore une fois.
- 
-Maintenant comment leur convaince de ne pas faire une application propre à leur enseigne, nous pourrons avancer les arguments suivants.
- 
-L’avantage est qu’ils n’auront pas à dépenser d’argent pour créer et surtout maintenir l’application mobile.
- 
-Le deuxième argument est que s’il font ça les autres enseignes voudront copier et puisqu’ils possèdent les moyens, ils sortiront assez rapidement leur propre application alors tout le monde sera au même niveau quoi qu’il arrive. Les seules differences se feront sur l’UX de l’application et les prix des produits. Les utilisateurs seront encore une fois perdus et frustrés à l’idée devoir télécharger plusieurs applications pour une même fonctionnalité.
- 
-Imaginon qu’on arrive à les convaincre. Maintenant, comment pourront nous faire de l’argent si nous ne pouvons pas proposer de valeur ajouté aux entreprises à vendre. Les données de l’utilisateur les reviennent puisque ces enseignes mettent à disposition leur données de stock.
- 
-Nous pourront leur proposer de faire l’installation et la cartographie du magasin pour un coût faible. La dessus nous pourront gagner un peu d’argent mais pas énorment. Ce sur quoi je misera sera sur la monétisation de l’application en mode Freemium, nous rajouterons des fonctionnalités plus atrayantes pour que l’utilisateur puisse encore plus de temps. Cette options me respondent d’autant plus dans ma vision d’un produit en général. Puisque je préfére le principe que le profit fait par un application doit être proportionelle à la problèmatique qu’il résout et la valeur ajouté à celui qui l’utilise. Si cette application a vraiment une utilisé et apporte une valeur à l’utilisateur alors elle rapportera de l’argent.
- 
- 
-Nous demontreron et développeront plus sur la démarche et stratégie pour convaincre que ce concept de gagner du temps pour sortir d’un magasin plus rapidement peut leur faire gagner de l’argent aussi dans la partie X de ce document.
- 
-Puisque pour que cette application puisse fonctionner correctement il nous faut les données de stock/disponibilité et emplacement des produits, cartographie des magasin, or toutes ces données appartiennent aux magasin. Nous devons trouver le moyen soit des acheter soit de faire en sorte qu’ils nous laisse y accèder. Pour cela les arguments
- 
-J’ai pensé au cas où les enseignes seraient les clients, à ce que je pourrai leur vendre et les arguments de vente. J’ai imaginé que la valeur proposé aux entreprises seraient les données de l’utilisateur et plus précisement la liste de courses. J’ai aussi pensé aux fait qu’ils pourraient mettre des pubs et les promotions du moment sur le parcours dans l’application.  Ainsi la facturation serait les données utilisateur et la mise en ligne des pubs sur notre application, mais il m’a venu problème en tête, eux possèdent les donnée de stock, on accès à leur propre magasin pour faire de la geocalisation, alors pourquoi ils voudrait de mon application si je n’ai rien d’autre à r
- 
-Faire des recherches pour savoir le nombre de clients par supermarché dans paris.
- 
-Le nombre d’enseignes dans la région parisienne.
- 
-Clients qui vont acheter. Auchan carrefour, franprix, leader
- 
-Faire un calcul dans les deux cas. Pour une application freemium.
-Pour le prix d’une pub d’une entreprise dans l’application. Exposer cette partie dans la partie modèle économique
- 
-J.      Menaces
- 
-Le fait que les entreprise ne vont pas mettre de pub dans l’application.
+Clients potentiels
+  
+Dans un premier temps, nous souhaitons nous répondre localement sur la région Parisienne.  Nous avons vu dans la partie vision de produit que nous ciblerons les enseignes entant que clients.
 
-Faire attention
+Nous proposerons aux clients les services suivantes :
+
+-	Prestation d’installation des dispositifs pour la localisation des articles
+-	Mise en place de la géolocalisation indoor
+-	Prestation pour normaliser/créer des APIs qui fourniront les données nécessaires pour l’API Gateway, celle qui centralisera les APIs des enseignes qui seront partenaires.
+-	Service d’analyse de données : conception, Analyse de modèles, représentations des données utilisateur (liste de courses)
+
+Liste des groupes/enseignes
+
+Afin de voir les clients potentiels, on va établir une liste des plus gros groupes dans le secteur de la grande distribution, puis on fera la liste des enseignes qui appartiennent à chaque groupe.
+
+
+ 
+Part de marché des groupes de distribution en 2017 – Source Kanta Wordpanel
+
+Les groupes le plus importants dans ce marché sont donc : E. Leclerc, Carrefour, Auchan, Système U, Intermarché et Groupe Casino
+Groupes\Type 	Hypermarché	Supermarché	Proximité
+E. Leclerc	E. Leclerc		Leclerc express
+Carrefour	Carrefour Hypermarché	Carrefour Market, Marché Plus	Carrefour Express, Carrefour City, 8 à huit, Proxi, Champion
+Les Mousquetaires 	Intermarché Hyper	Intermarché Super	Intermarché Express, Intermarché Contact
+Casino 	Géant Casino	Casino Supermarché	Casino shop, Petit Casino
+Auchan	Auchan	Auchan supermarché	My Auchan
+Système U	Hyper U	Super U	U Express, Marché U
+Louis Delhaize	Cora	Match	
+
+
+
+Nombre d’enseignes en Ile de France 
+
+D’après l’Insee, dans son rapport sur « Nombre d’équipements et de services dans le domaine du commerce – 2018 » en Ile de France on compte avec 195 hypermarchés, 2121 supermarchés et 926 commerces de proximité, ce qui fait au total 3242 magasins alimentaires.
+
+ 
+Nombre de magasins sur Paris – Source : Insee 2018
+
+	
+Nous voulons cibler pour notre la première année après le lancement de l’application, une implémentation de 5% des magasins, tout type d’enseigne compris, soit 162 enseignes pour la première année. On se concentrera sur ces 6 Groupes.
+
+Menaces
+ 
+Cette section énumère les possibles difficultés pour la vente, la mise en place du projet, la réception du produit par les utilisateurs.
+
+Convaincre les enseignes de permettre la localisation des produits. Permettre à l’utilisateur de localiser plus rapidement un produit qui en plus lui permettra de terminer rapidement ses achats, est une idée qui est opposé aux stratégies commerciales des grandes enseignes, même si on voit que les enseignes comme Auchan et Carrefour on sue écouter les besoins des utilisateurs en implémentant ce type de solutions (localisation) dans leur espaces, d’autres enseignes peuvent encore être retissant au regard de ce système.
+
+Nous devrons leur montrer qu’ils doivent répondre au besoin du client. De plus ce type de système leur permettra d’attirer et fidéliser une clientèle jeune (18 – 30 ans), une application qui utilise ce système leur permettra de proposer leur promotion d’une autre façon et surtout d’une façon plus attrayante. Par exemple en travaillant sur une bonne interface d’utilisation (UX et UI) les promotions affichées sur le plan du magasin, seront plus captivantes pour l’utilisateur de l’application. 
+
+Convaincre les enseignes de devenir partenaires afin de créer une application unique. Maintenant imaginons qu’ils adhérent à ce concept, peut-être qu’ils voudront développer une application propre à l’enseigne, puisqu’ils ont les données et les moyens financiers pour développer une application avec les mêmes caractéristiques que celle que nous leur proposons. Il s’agira dans ce cas, de prouver que les utilisateurs ne seront pas satisfaits et éprouveront de la frustration, sur le fait qu’ils seront obligés d’utiliser une application pour chacune des enseignes. 
+
+En respectant le principe de liberté sur l’application on pourra obtenir des données pures, ce qui sera la plus grande valeur pour la marque, mais si chaque entreprise exerce un contrôle sur la façon de guider, inciter et influencer l’utilisateur, on diminuera la qualité de la donnée récupérée. L’autre argument est qu’ils n’auront pas à dépenser d’argent et effort pour maintenir tout le système mobile et APIs.
+
+Entreprises qui ne seront pas intéressés par le service de AaaS (analyses). Un autre cas serait que les entreprises ne soient pas attirées par notre offre de service d'analyse des données et préfèrent simplement faire les analyses par eux même. Nous devrons nous armer d’experts en analyse de données et « data scientist » et prouver que les rapports auront un intérêt pour la gestion de stock, la fidélisation de clients et stratégie de vente. Ce dernier point est intéressant à développer, car maintenant les entreprises ont leur propre marque de produits, par exemple, il serait intéressant d’analyser les comportements d’appellation que chaque utilisateur utilise pour écrire son produit sur une liste.
+
+ 
+Faire attention à l’expérience utilisateur
+
 L'envoi de notifications ou d'offres personnalisées ne se fait pas non plus d'un coup de baguette magique. La balise n'est après tout qu'un simple émetteur qui permet de localiser le smartphone du consommateur. C'est l'application via l'utilisation d'algorithmes sophistiqués qui calcule sa position. Tout le travail de mise en avant de contenus ciblés réside ensuite dans le savoir-faire des équipes marketing équipées de plateformes CRM et de gestion des campagnes.
 
-Le pire des cas serait que les entreprises soient intéressé à l'idée de récupèrer des données pures d'un client, mais ils se pourrait qu'il ne nous fasse pas confiance dans l'analyse des données et préférent simplement faire les analyses par eux même.
+Dépendance des données de chaque enseigne
 
-Comme nous l'avons dit, une autre menace serait que ces enseignes qui possèdent plus de moyens et budgets veuille faire tout le système par eux même.
- 
+Nous avons vu que pour cartographier, nous devons accéder aux installations des enseignes, pour afficher la localisation de chaque produit nous devons récupérer les produits disponibles ainsi que les repérer dans un plan, cela nous rend très dépendant. Mais peut être que juridiquement on peut récupérer les emplacements et disponibilités des produits en engagent des employés qui se déplaceront dans les magasins pour relever ces informations., de même pour créer une représentation 2D/3D du magasin. C’est des pistes qu’il faut encore explorer.
+
 K. 	Opportunités
 
-Etre plus présent le monde du retail
+Être plus présent le monde du retail. On pourrait envisager le développement de notre produit sur d’autres secteurs du retail, comme le magasin de prêt-à-porter, sport, bricolage et bien d’autres, en adaptant bien évidemment notre système à chacune des spécificités de ces commerces.
 
-Cela pourrait se traduire par 
-Le développement et déploiement sur d’autres secteurs du retail, comme le magasin de pret-à-porter, sport
-Développement d’un moyen de paiment plus rapide, comme les chariots connectés en soit revolutionner la façon d’acheter
+Développement des moyens de paiement plus rapides, comme les chariots connectés, on pourrait imaginer un chariot qui intégrer à l’intérieur un scanner de produit, le client n’aura plus à sortir les articles sur le tapis pour qu’ils soient scannées. On sait que l’un des besoins des consommateurs est de gagner du temps lors du paiements.
 
-Le parcours utilisateur en profitant des la réalité augmenté, des l'intélligence artificielle, des agents personnels etc...
+Améliorer encore plus le parcours utilisateur au sein du magasin en intégrant des technologies d’actualité comme la réalité augmentée qui peut être utilisé pour donner plus d’informations aux clients, l’intelligence artificielle peut aussi être utilisé pour créer des assistants virtuels qui vont conseiller et guider les clients.
 
- 
-Récolter les habitudes des utilisateurs
  
 L.  Modèle économique (comment gagner de l’argent)
 o   Type de vente (free, freemium)
 o   Prix pour les entreprises etc…
 o   Rentabilité
  
-J’ai réfléchie à plusieurs modèles économiques possibles. Ceux qui sont les plus connus et utilisés sont :
- 
--        Publicité intégré/sponsoring
--        Freemium
--        Téléchargement payant
- 
-J’ai décidé de prendre partir sur le freemium. Voici la réfléxion qui a été faite, voyant la démarche mais par élimination.
- 
-Publicité ou sponsoring
-Un annonceur paye l’application pour avoir une visibilité sur l’ensemble des bannières publicitaires de l’application mobile. Nous ne pourront pas proposer ce modèle car pourque modèle il faudra un fort trafique et fréquence d’un utilisateur sur l’application, bien que nous esperons que tous les utilisateur l’utiliseront avec fréquence la fréquence n’est pas aussi forte qu’un réseau social par exemple où on ouvre l’application plusieurs fois par jour. Un utilisateur ouvrirar l’application pontuellement que quand il aura besoin de faire des courses et cela n’arrive pas plus de 2 fois par jour par exemple.
-Donc ce modèle n’aura pas assez de poids pour démarcher un sponsoring.
-Le téléchargement payant
-Cette solution ne me plait pas car, je voudrais que toute personne est accès à cette fonctionnalité.
-Celle est très dificil de convaince des utilisateur de payer pour une application donc ils ne peuvent pas l’essayer avant.
-De plus on sait que les stores prélèveront une commission de 30% sur chaque vente.
-De plus les entreprises/enseignes avec qui ont aura un partenaria ne voudront pas que des utilisateurs potentielles soient exclus de leur magasin, il faut un maximum de flux dans l’application.
- 
-Le mode Freemimum
- 
-L’application existe en version basique parfaitement utilisable que le mobinaute peut télécharger gratuitement, et en version payante, plus haut de gamme, avec plus de fonctionnalités. C’est une bonne stratégie pour inciter les utilisateurs à payer pour une offre premium après en avoir testé une version gratuite.
- 
-Ce modèle possède un bon équilibre, on donne un plus grand accès, on ne charge pas l’application avec des publicité. On donnera accès à la fonctionnalité principale c’est-à-dire l’accès à un parcours optimal dans le magasin, une fois que l’utilisateur verra que ce système à une grande valeur. Il sera tenté d’avoir accès à d’autres fonctionnalités pour gagner encore plus de temps.
- 
-Lorsqu’on effectue des coureses pour le mois, faire la liste des courses demande plus de temps et travail puisqu’elle est conséquente, cela est un autre problème pour l’utilisateur, alors on proposera une fonctionnalité payante pour les cas d’utilisation d’achat du mois. Cela se traduira par une liste prédéfinie, un scanner pour renter plus vite la liste sur l’application.
- 
-Le détail avec ce moèdele est de trouver l’équilibre entre accéssibilité et frustation de l’utilisateur. Dans notre cas l’utilisateur qui va faire des courses tous les mois se verra géné par le fait de ne pas pouvoir avoir une liste de courses prédéfinie, car sa liste de courses ne restera que pour une duré determiné et devra le refaire donc à chaque fois qu’il fera ses achats.
- 
-On doit aussi penser à crée une frustation mais pour les utilisateur qui utiliseront l’application uniquement pour  faire des petites courses.
-Une fonctionnalité de scanner, qui scanne une liste de course papier et qui la transforme directement en lsite de course sur l’application fera gagner de l’argent. On est consicent que cette fonctionnalité sera plus un « nice to have » qu’un « pain » , mais elle pourra être proposé pour la vente dans not
- 
-Les détails fonctionnels seront décrits dans la partie X (fonctionnalités)
- 
- 
- 
- 
- 
- 
- 
  
 Remplir avec une courbe pour montrer qu’on va gagner de l’argent.
  
  
-M.   Axe de développement/projection (comment et objectifs)
+Axe de développement
  
-La stratégie de vente. Au debut pour amortir les couts on devra mettre quelques pubs dans l’application de temps en temps. Ensuite il faudra attendre d’avoir un bon nombre d’utilisateurs pour négocier avec les enseignes de mettre de pubs dans notre application. La vente de la liste de courses et aussi une option.
- 
-Ici nous alons aborder la question du comment réussir à montrer que le concepte de gagner du temps peut aussi avoir de la valeur pour l’utilisateur.
+Ici nous allons aborder la question du comment réussir à montrer que le concept de gagner du temps peut aussi avoir de la valeur pour le magasin.
  
 La démarche est la suivante :
  
-Faire une étape de Pilote ou POC (prouve of concept) avec une application très basique. Cette application n’aura pas les mêmes fonctionnalités que le MVP.
-Choisir 20 magasins sur Paris.
-Charger une personne d’aller dans chaque magasin. Prendre une photo du plan des magasin, ils ont souvent un plan d’évaquation.
+Faire un produit pilote ou « POC » (prouve of concept) avec une application très basique. Cette application n’aura pas les mêmes fonctionnalités que le MVP.
+
+Choisir 20 magasins sur Paris pour les utiliser dans notre pilote. Charger une ou plusieurs personnes d’aller dans chaque magasin pour récupérer un plan d’évacuation, ce plan nous permettra d’avoir une cartographie simple du magasin, cette même personne ajoutera quelques détails sur l’intérieur du magasin, préciser les espaces de rayon. Il s’agirait de cibler principalement des petites superettes pour gagner du temps.
  
-Relever l’emplacement des produits sur une carte qu’on aura cartographie nous même précédament. Il suffit de relever les information sans rentrer trop dans le détail, c’est-à-dire ne pas enlever d’information par marque ou autres caractériques. Par exemple il suffira de relever « le riz est à l’endroit x » et non pas « le riz de marque basmati est à l’endroit x ».
+Les personnes en charge de la récolte d’informations devront également relever l’emplacement des produits sur une carte qu’on aura cartographié en amont. Il suffit de relever les informations sans rentrer trop dans le détail, c’est-à-dire ne pas enlever d’information par marque ou autres caractériels. Par exemple il suffira de relever « le riz est à la l’endroit X » et non pas « le riz de marque basmati est à l’endroit X ». 
  
-Une fois qu’on a les données du magasin on les stock et on les traite à l’aide des API.
+Une fois qu’on a les données du magasin on sauvegarder en base de données et on les traite à l’aide des API qu’on va développer.
  
-L’application n’aura pas de géolocalisation, puisque pour avoir celle-ci en aurait besoin d’installer des dispotif à l’intérieur du magasin, or nous ne serons pas autorisés.
+Le pilote n’aura pas de géolocalisation, puisque pour avoir celle-ci en aurait besoin d’installer des dispositifs à l’intérieur du magasin, or nous n’aurons pas l’autorisation.
  
-On introduira ensuite les promotions du moment sur le parcours avec un bonne internet UX
- 
+On introduira ensuite les promotions du moment sur le parcours avec un bonne interface, pour attirer le client sur ces promotions. 
+
 Donc les fonctionnalités de l’application seront :
--        Proposer un plan optimisé selon notre liste de course
--        Le plan sera statique
--        Affichage des promotions
- 
-Ensuite il s’agira d’intérroger les utilisateurs et avoir des retour d’expérience. Nous sommes confiants que l’application aura un intêret pour l’utilisateur.
- 
-Nous montreron aux enseignes que ces utilisateurs sont intéressé par ce genre d’application
-Et deux qu’ils sont incités à acheter les promotions car l’affichage sur un mobile de application est plus efficace que sur un magasin de physique.
- 
-Autre chose nous mettront en place un outils d’analyse de la liste des courses pour leur montrer l’intêret et valeur des données de la liste de courses.
- 
-Si nous arrivons à faire correctement cette stratégie, les enseignes seront interessé et plus ouvertes à un proposition de partenariat.
-
-# Prévision financières
+-	Proposer un plan (statique) optimisé selon notre liste de course
+-	Rechercher et indiquer l’emplacement d’un article sur la carte
+-	Affichage des promotions sur le parcours et le plan du magasin
+-	Création d’une liste de courses prédéfinie
+-	Création d’un compte simple
 
 
-III.          Aspect juridique
- 
-N.    Obstacles/Difficultés potentielles
- 
- Dans notre stratégie de POC, nous avons évoqué le fait qu'on récolterai les informations nous mêmes en se déplaçant à l'intérieur des enseignes. Juridiquement peut être qu'on aurai pas le droit sur le fait de relever la map du magasin, pour les produits et prix je suis plus rassuré. Se documenter sur le fait de collecter les données des prix et emplacement des articles dans un magasin.
- 
-Puisque nous ne proposant pas une inovation, nous ne sommes pas bloqué par des problèmes de droits et brevets.
 
+ 
+Fonctionnalités du pilote
+
+
+D’autre part nous devons mettre en place un système d’analytiques pour mesurer les connexion, comptes, liste de courses, on s’assura d’avoir les outils d’analyse de la liste des courses pour que plus tard on puisse leur montrer l’intérêt et valeur des données de la liste de courses.
+
+Une fois le produit développé et mis en production nous devons interroger les utilisateurs pour récolter un maximum de retour d’expérience et besoins. Grâce aux analyses et retour des utilisateurs, nous montrerons aux enseignes que ces utilisateurs sont intéressés par ce type d’application
+
+Si nous arrivons à faire correctement cette stratégie, les enseignes seront intéressées et plus ouvertes à une proposition de partenariat.
+
+ 
+Phases de la stratégie pour attirer les partenaires
+
+Aspect juridique
+ 
+Obstacles/Difficultés potentielles
+ 
+L’une des difficultés qu’on pourrait rencontrer, c’est pour le lancement du pilote, dans notre stratégie de pilote, nous avons évoqué le fait de récolter les informations des articles et plans nous-mêmes en se déplaçant à l'intérieur des enseignes. Juridiquement peut être qu’on n’aura pas le droit de prendre ces données et si c’était le cas à quelle condition pourrions-nous les utiliser. Il faudra se renseigner sur le fait de collecter les données de localisation de chaque produit et le plan du magasin.
+
+Statut juridique
+
+Statut juridique, on doit penser à avoir un statut légal (société du type SAS, micro entreprise, statut de libéral) et de respecter les obligations comptables, fiscales et sociales qui vont avec (TVA, charges sociales, règles professionnelles).
+
+Licence/protection du produit
 Il faudra penser à protéger le nom du produit
 
-Il s'agit tout d'abord des documents juridiques d'information à destination de l'utilisateur final (l'internaute) (BtoC /BtoB). On trouve :
-
-des mentions légales permettant d'identifier complètement le développeur/éditeur ; 
-des Conditions Générales de Vente (CGV) ou Conditions d'Utilisation (CGU)  ou encore un Contrat de Licence d'Utilisateur Final  (CLUF) ;
-Enfin une charte ou une politique de confidentialité (RGPD) concernant la gestion des données personnelles des utilisateurs est souvent prévue.
-Si les grandes sociétés accordent une attention particulière à ces documents juridiques, c'est moins fréquent pour les petites structures. C'est pourtant sur l'éditeur de l'application que repose la responsabilité juridique principale et non, en principe, sur l'intermédiaire. 
+Condition d’utilisation, mentions légales
 
 
-Penser à la récolte des données et le fait de prévenir l'utilisateur les données qui seront utilisés par l'entreprise dans quel but etc.
+Étant donné que l'éditeur (nous l’entreprise), a la responsabilité juridique principale de l’application, nous devons respecter toutes les règles en matière de :
+•	Les mentions légales permettant d'identifier complètement le développeur/éditeur ; 
+•	Conditions d’Utilisation (CGU)
+•	Une charte ou une politique de confidentialité (RGPD) concernant la gestion des données personnelles des utilisateurs.
+Conditions d’utilisation
+Ces dernières sont obligatoires puisqu''elles permettent à l''utilisateur de l''application de disposer des coordonnées de l''éditeur de l''application, à savoir son développeur ou la personne qui est commanditaire du développement d''une application, par le biais d''un standard ouvert. Ces mentions légales devront ainsi être disponibles pour l''utilisateur par le biais de son descriptif sans qu''il ait eu à télécharger, de manière payante ou gratuite, cette dernière. Le non-respect de cette obligation des mentions légales fait encourir à l''éditeur de l''application une peine d''un an d''emprisonnement et de 75 000 euros d''amende.
+Les informations à indiquer sont les suivantes. Dans un premier temps, l''éditeur de l''application doit y faire figurer sa dénomination sociale, son siège social, son numéro de téléphone, son numéro d''inscription au registre du commerce et des sociétés ou au répertoire des métiers, le montant de son capital social, le nom du directeur et celui du codirecteur de l''application. De plus, les mentions légales doivent faire figurer le nom, la dénomination sociale ou la raison sociale, l''adresse et le numéro de téléphone de l''application.
 
-Anonymiser les données
 
-Etablir un contrat avec les clients (enseignes) pour déterminer les obligation pour chaucun des parties, facturation etc.
+Collecte, traitement et utilisation des données 
+
+Tout éditeur d’application mobile qui collecte et traite des données dans le cadre de cette activité est soumis à des obligations légales déterminées notamment par la loi Informatique et Libertés. Voyons les différentes règles à respecter 
+
+-	Informer l’utilisateur de l’appli mobile que vous souhaitez utiliser ses données et à quelle fin. Cette finalité doit être déterminée, explicite et légitime. C’est le principe de licéité, loyauté et transparence.
+-	Obtenir le consentement de l’utilisateur avant de collecter les données, par un acte volontaire et positif : cela peut se faire, par exemple, par le biais d’une case que la personne doit cocher pour donner son consentement ; mais en aucun cas, par le biais d’une case pré-cochée, que la personne devrait décocher pour indiquer qu’elle n’est pas d’accord. Lorsque le consentement est obtenu, ne l’utiliser que pour ce qui a été énoncé. On ne peut utiliser le consentement pour une autre finalité (il faut alors redemander le consentement). C’est le principe de limitations de finalité.
+-	Ne collecter que les données nécessaires à la réalisation du service attendu : c’est le principe de minimisation des données. Par exemple, on ne demande pas d’accéder au carnet d’adresses de la personne ou d’activer sa géolocalisation si on n’en a pas expressément besoin pour rendre le service attendu. 
+-	Informer clairement l’utilisateur de l'appli sur ses droits et la manière de les exercer : il d’agit des droits d’être informé, d’accès aux données, de rectification, de portabilité, d’opposition, de contestation, de limitation du traitement et de suppression. L’utilisateur doit par exemple être en mesure de suspendre le service offert à tout moment et de manière simple. On doit lui donner la possibilité de récupérer ses données à caractère personnel pour les transmettre à un autre responsable de traitement (par exemple un concurrent), sans y faire obstacle. Toutes ces informations doivent clairement apparaître dans les termes et conditions de votre application mobile.
 
 
-https://www.reynaud-avocat.com/le-cadre-juridique-des-applications/
+RGPD
 
-IV.          Étude technique
+Le Règlement Général sur la Protection des Données (RGPD) est le dernier règlement de l’Union Européenne concernant les données personnelles. Avec l’augmentation exponentielle de l’utilisation des applications mobiles et d’internet, nos données personnelles sont constamment partagées, au point de ne plus savoir qui y a accès. Nom, adresse email, numéro de téléphone, adresse IP et bien d’autres données se retrouvent dans la nature. Les utilisateurs les communiquent mais l’utilisation de ces données est rarement transparente.
+
+Avant de développer notre application nous devons être sûrs de respecter les différentes règles en termes de RGPD, quelques règles ont déjà été évoqués dans la section « Collecte, traitement et utilisation des données » : 
+
+-	Droit à l’accès, le RGPD donne le droit à l’utilisateur d’accéder et contrôler avec flexibilité les données récoltées sur lui. On doit donc garantir la possibilité de consulter les données récoltées de l’utilisateur, modifier ses données et supprimer ses données
+-	Renforcer la protection des données
+
+
+Anonymisation des données 
+
+L’anonymisation est une technique permettant d’empêcher de manière irréversible l’identification d’une donnée. Plus spécifiquement, elle consiste à changer le contenu ou la structure même des données, de sorte que toutes les informations directes ou indirectes pouvant permettre l’identification d’une personne soient supprimées ou modifiées, cette technique nous permettra de respecter les règles RGPD.
+
+
+Sanctions
+
+Sanctions en cas du nom respect de la RGPD. Les sanctions sont extrêmement dissuasives : les manquements les moins graves peuvent être sanctionnés d’une amende pouvant aller jusqu’à 10 millions d’euros, ou 2 % du chiffre d’affaires d’une entreprise, le montant le plus élevé étant pris en compte. Les manquements considérés comme étant les plus graves tels ceux liés aux droits d’accès, de rectification, de suppression et d’opposition peuvent quant à eux occasionner jusqu’à 20 millions d’euros d’amende, ou 4 % du chiffre d’affaires.
+
+
+Contrat
+
+Établir un contrat avec les clients (enseignes) pour déterminer les obligations pour chacun des parties, nous devons définir un contrat de prestation de service. 
+
+En règle générale un contrat devra spécifier les informations suivantes :
+
+-	Les parties au contrat
+-	L’objet du contrat
+-	Les prix des prestations de services
+-	Les modalités d’exécution des prestations
+-	Aa durée du contrat
+-	Les obligations des parties
+-	Les modalités de rupture
+-	Les modalités de résiliation et de sanction
+-	Les cas de force majeure
+-	La clause liée au litige
+
+Il faudra penser aux différents types de clauses comme :
+
+-	La clause recette
+-	SLA (Service Level Agreement), il s’agit d’évaluer la qualité de prestation
+-	La clause d’exploitation
+-	La clause de réversibilité
+-	La clause d’indexation ou pourcentage
+
+Nous aurons également à choisir dans prestations informatiques entre une obligation de résultats et/ou de moyens. 
+
+
+Étude technique
+
  
 O.    Étude du besoin
  
-Nous avons besoin d’une application qui tracera le parcours d’un client selon un liste de produits.
+Rappelons le besoin 
  
 P.     Spécification fonctionnelle
  
@@ -465,7 +573,7 @@ V.            Réalisation technique
  
 Ici c’es tjust dire comment et avec quels utils ont compte réaliser le projet
 T.     Conception
-U.    Définition du MVP
+U.    Définition du MVP	
 V.     Maquettage
  
 W.   Réalisation
@@ -499,3 +607,10 @@ Bibliographie
 Remerciements
  
 Annexes
+
+Source : 
+https://www.ledauphine.com/france-monde/2018/10/05/ou-compte-t-on-le-plus-de-supermarches-en-france
+
+
+enseignes : https://fr.wikipedia.org/wiki/Liste_d%27enseignes_de_la_grande_distribution_en_France
+
