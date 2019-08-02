@@ -1,0 +1,819 @@
+<!DOCTYPE html><!--[if IE 7]><html
+class="ie ie7" lang=en-US prefix="og: http://ogp.me/ns#"><![endif]--><!--[if IE 8]><html
+class="ie ie8" lang=en-US prefix="og: http://ogp.me/ns#"><![endif]--><!--[if !(IE 7) | !(IE 8)  ]><!--><html
+lang=en-US prefix="og: http://ogp.me/ns#"><!--<![endif]--><meta
+http-equiv=Content-type content="text/html;charset=UTF-8"><link
+href=/wp-includes/css/sqlhtml.css rel=stylesheet type=text/css><link
+rel=stylesheet type=text/css href=/wp-includes/FBox/jquery.fancybox.css><link
+rel=stylesheet type=text/css href=/wp-includes/css/bootstrap.min.css><link
+rel=stylesheet type=text/css href=/wp-includes/css/ApexSQL1.css><link
+rel=stylesheet type=text/css href=/wp-includes/css/ApexSQL.css><link
+rel=icon href=https://www.apexsql.com/images/favicon.ico type=image/x-icon><link
+rel="shortcut icon" href=https://www.apexsql.com/images/favicon.ico type=image/x-icon><style>#navbar-iframe
+
+
+
+        {
+
+
+
+            display: none !important;
+
+
+
+        }
+
+
+
+        @-moz-document url-prefix() {
+
+
+
+                        div.partw{
+
+
+
+                        min-height:526px !important;
+
+
+
+                    }
+
+
+
+                    
+
+
+
+
+
+
+
+        .middle
+
+
+
+        {
+
+
+
+            margin: 0px 281px 0px 5px;
+
+
+
+	    }
+
+
+
+
+
+
+
+        div.left 
+
+
+
+	    {
+
+
+
+	        float: right;
+
+
+
+	        width: 281px;
+
+
+
+	    }
+
+
+
+        .blog_content
+
+
+
+        {
+
+
+
+             width: 639px;
+
+
+
+        }</style><style>/*<![CDATA[*/div#sideBar{position:absolute;left:0;width:112px;margin:0px 0px 0px 1em;padding:0px 10px 0px 0px;text-align:left;}
+
+
+
+        <MainOrArchivePage> 
+
+
+
+           span.fullpost {display:none;}
+
+
+
+           div.fullpost {display:none;}
+
+
+
+        </MainOrArchivePage>
+
+
+
+        <ItemPage> 
+
+
+
+           span.fullpost {display:inline;} 
+
+
+
+           div.fullpost {display:block;} 
+
+
+
+        </ItemPage>/*]]>*/</style> <script src=/wp-includes/js/jquery-2.1.3.min.js language=javascript></script> <script src=/wp-includes/FBox/jquery.fancybox.js language=javascript></script> <script src=/wp-includes/js/jquery.leanModal.js language=javascript></script> <script src=/wp-includes/js/bootstrap.min.js language=javascript></script> <script src=/wp-includes/js/ApexSQL1.js language=javascript></script> <script src=/wp-includes/js/ApexSQL.js language=javascript></script> <script>$(document).ready(function () {
+
+
+
+
+
+
+
+            $("a.zoom").fancybox({
+
+
+
+                'transitionIn': 'fade',
+
+
+
+                'transitionOut': 'fade',
+
+
+
+		//'titleShow': 'false',
+
+
+
+               // 'titlePosition': 'over',
+
+
+
+                'hideOnContentClick': 'true',
+
+
+
+                'speedIn': 400,
+
+
+
+                'speedOut': 200,
+
+
+
+		'titleFormat': function (title, currentArray, currentIndex, currentOpts) {return '';}
+
+
+
+            });
+
+
+
+            $(".clickable_menu_region").click(function () {
+
+
+
+                window.location = $(this).find("a").attr("href");
+
+
+
+                return false;
+
+
+
+            });
+
+
+
+
+
+
+
+		
+
+
+
+        });</script> <script>$('#root').click(function(){
+
+
+
+$('span[class^="st_plusone_hcount"]').html(''); // Empty span contents
+
+
+
+$('span[class^="st_plusone_hcount"]').attr('st_processed',null); // Reset ST plugin
+
+
+
+$('span[class^="st_plusone_hcount"]').attr('st_url',url); // Set new url
+
+
+
+stButtons.makeButtons(); // Renew buttons
+
+
+
+alert("I am an alert box!");
+
+
+
+});</script> <head><link
+href=https://plus.google.com/+ApexSQL rel=publisher><meta
+charset=UTF-8><meta
+name=viewport content="width=device-width"><title>ApexSQL database DevOps continuous integration workflow – visual representation</title><link
+rel=profile href=http://gmpg.org/xfn/11><link
+rel=pingback href><!--[if lt IE 9]> <script src=https://blog.apexsql.com/wp-content/themes/twentytwelve/js/html5.js></script> <![endif]--><link
+rel=canonical href=https://blog.apexsql.com/apexsql-database-devops-continuous-integration-workflow-visual-representation/><link
+rel=publisher href=https://plus.google.com/u/0/106594786534634358790/><meta
+property=og:locale content=en_US><meta
+property=og:type content=article><meta
+property=og:title content="ApexSQL database DevOps continuous integration workflow – visual representation"><meta
+property=og:description content="This article will represent the recommended working model for database DevOps to create SQL Server database continuous integration and continuous delivery pipelines with a set of SQL developer tools. Here are some graphic representations of the recommended workflows for SQL database CI CD best practices The general concept of the overall SQL database CI CD &hellip;"><meta
+property=og:url content=https://blog.apexsql.com/apexsql-database-devops-continuous-integration-workflow-visual-representation/><meta
+property=og:site_name content=Blog><meta
+property=article:section content="ApexSQL DevOps toolkit"><meta
+property=article:published_time content=2018-11-21T10:56:41+00:00><meta
+property=article:modified_time content=2018-11-22T10:05:45+00:00><meta
+property=og:updated_time content=2018-11-22T10:05:45+00:00><meta
+property=og:image content=https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-128.png><meta
+property=og:image:secure_url content=https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-128.png><meta
+property=og:image:width content=1407><meta
+property=og:image:height content=488><meta
+name=twitter:card content=summary_large_image><meta
+name=twitter:description content="This article will represent the recommended working model for database DevOps to create SQL Server database continuous integration and continuous delivery pipelines with a set of SQL developer tools. Here are some graphic representations of the recommended workflows for SQL database CI CD best practices The general concept of the overall SQL database CI CD [&hellip;]"><meta
+name=twitter:title content="ApexSQL database DevOps continuous integration workflow – visual representation"><meta
+name=twitter:image content=https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-128.png><link
+rel=dns-prefetch href=//use.fontawesome.com><link
+rel=dns-prefetch href=//fonts.googleapis.com><link
+rel=dns-prefetch href=//s.w.org><link
+href=https://fonts.gstatic.com crossorigin rel=preconnect><link
+rel=alternate type=application/rss+xml title="Blog &raquo; Feed" href=https://blog.apexsql.com/feed/><link
+rel=alternate type=application/rss+xml title="Blog &raquo; Comments Feed" href=https://blog.apexsql.com/comments/feed/><link
+rel=alternate type=application/rss+xml title="Blog &raquo; ApexSQL database DevOps continuous integration workflow – visual representation Comments Feed" href=https://blog.apexsql.com/apexsql-database-devops-continuous-integration-workflow-visual-representation/feed/> <script>window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.apexsql.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);</script> <style>img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style><style>.wp-pagenavi{margin-left:auto !important; margin-right:auto; !important}</style><link
+rel=stylesheet id=yarppWidgetCss-css  href='https://blog.apexsql.com/wp-content/plugins/yet-another-related-posts-plugin/style/widget.css?ver=5.0.3' type=text/css media=all><link
+rel=stylesheet id=wp-block-library-css  href='https://blog.apexsql.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type=text/css media=all><link
+rel=stylesheet id=st-widget-css  href='https://blog.apexsql.com/wp-content/plugins/share-this/css/style.css?ver=5.0.3' type=text/css media=all><link
+rel=stylesheet id=wpfront-scroll-top-css  href='https://blog.apexsql.com/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.1' type=text/css media=all><link
+rel=stylesheet id=font-awesome-css  href='https://use.fontawesome.com/releases/v5.3.1/css/all.css?ver=5.0.3' type=text/css media=all><link
+rel=stylesheet id=twentytwelve-fonts-css  href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type=text/css media=all><link
+rel=stylesheet id=twentytwelve-style-css  href='https://blog.apexsql.com/wp-content/themes/ApexSQL_responsive/style.css?ver=5.0.3' type=text/css media=all>
+<!--[if lt IE 9]><link
+rel=stylesheet id=twentytwelve-ie-css  href='https://blog.apexsql.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type=text/css media=all>
+<![endif]--><link
+rel=stylesheet id=yarppRelatedCss-css  href='https://blog.apexsql.com/wp-content/plugins/yet-another-related-posts-plugin/style/related.css?ver=5.0.3' type=text/css media=all><link
+rel=stylesheet id=wp-pagenavi-style-css  href='https://blog.apexsql.com/wp-content/plugins/wp-pagenavi-style/css/css3_blue_glossy.css?ver=1.0' type=text/css media=all> <script src='https://blog.apexsql.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script> <script src='https://blog.apexsql.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script> <link
+rel=https://api.w.org/ href=https://blog.apexsql.com/wp-json/><link
+rel=shortlink href='https://blog.apexsql.com/?p=16991'><link
+rel=alternate type=application/json+oembed href="https://blog.apexsql.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.apexsql.com%2Fapexsql-database-devops-continuous-integration-workflow-visual-representation%2F"><link
+rel=alternate type=text/xml+oembed href="https://blog.apexsql.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.apexsql.com%2Fapexsql-database-devops-continuous-integration-workflow-visual-representation%2F&#038;format=xml"> <script charset=utf-8>var switchTo5x=true;</script> <script charset=utf-8 id=st_insights_js src="https://ws.sharethis.com/button/buttons.js?publisher=wp.1fd4fa18-aa39-48d9-9deb-3c2393acf58e&amp;product=sharethis-wordpress"></script> <script charset=utf-8>stLight.options({"publisher":"wp.1fd4fa18-aa39-48d9-9deb-3c2393acf58e"});var st_type="wordpress4.7.3";</script> <style>.wp-pagenavi
+	{
+		font-size:12px !important;
+	}</style></head><body
+class="post-template-default single single-post postid-16991 single-format-standard custom-font-enabled"><noscript><iframe
+src="//www.googletagmanager.com/ns.html?id=GTM-PZSDLZ"
+height=0 width=0 style=display:none;visibility:hidden></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PZSDLZ');</script> <div
+id=top_menu_wrapper class=clearfix><div
+id=top_menu_main_wrapper><div
+id=top_menu_main_inner class="row horizontal_align"><div
+id=top_menu_main_logo class="col-md-2 col-sm-6 col-xs-6">
+<a
+href=https://www.apexsql.com>
+<img
+src=/topmenu/ApexSQL_Logo.svg></a></div><div
+id=top_menu_main_items class=col-md-7>
+<a
+style=cursor:pointer; class="top_menu_main_item has_submenu" data-id=top_menu_solutions_wrapper>Solutions</a>
+<a
+style=cursor:pointer; class="top_menu_main_item has_submenu" data-id=top_menu_products_wrapper>Products</a>
+<a
+href=https://www.apexsql.com/Download.aspx class=top_menu_main_item>Downloads</a>
+<a
+href=https://www.apexsql.com/prices.aspx class=top_menu_main_item>Prices</a>
+<a
+href=https://www.apexsql.com/support/ class=top_menu_main_item>Support</a></div><div
+id=top_menu_main_search class="col-md-3 col-sm-6 col-xs-6">
+<span
+id=top_menu_mobile_icon class="glyphicon glyphicon-align-justify"></span>
+<a
+id=top_menu_blog href=https://blog.apexsql.com>
+<img
+id=top_menu_blog_icon src=/topmenu/blog.png height=26 width=26 title=Blog style="margin-top: 4px;"></a>
+<a
+id=top_menu_contact_icon href=https://www.apexsql.com/contact/>
+<img
+id=top_menu_phone_icon src=/topmenu/phone.png title=Contact></a>
+<img
+id=top_menu_search_icon class=has_submenu data-id=top_menu_search_wrapper src=/topmenu/search.png>
+<a
+id=top_menu_cart_icon href=https://order.shareit.com/cart/view>
+<img
+id=top_menu_scart_icon src=/wp-content/uploads/2017/08/cart.png title=Cart style="margin-top: 4px; padding:0 12px;">
+</a></div></div></div><div
+id=top_menu_products_wrapper><div
+id=top_menu_products_inner><div
+id=top_menu_products_dba class="col-md-12 col-sm-12 col-xs-12">
+<a
+class=top_menu_bundles_link href=https://www.apexsql.com/sql_tools_dba.aspx>ApexSQL DBA</a><br/>
+<span
+class=top_menu_bundles_ptag>SQL Server management and database administration</span><ul
+class="top_menu_solution_list top_menu_two_solution_list_first" style=width:22%;><li><a
+href=https://www.apexsql.com/sql_tools_audit.aspx>ApexSQL Audit</a></li><li><a
+href=https://www.apexsql.com/sql_tools_backup.aspx>ApexSQL Backup</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_bi_monitor.aspx>ApexSQL BI Monitor</a></li><li><a
+href=https://www.apexsql.com/sql_tools_defrag.aspx>ApexSQL Defrag</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_second" style=width:22%;><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_discover.aspx>ApexSQL Discover</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_job.aspx>ApexSQL Job</a></li><li><a
+href=https://www.apexsql.com/sql_tools_log.aspx>ApexSQL Log</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_third" style=width:23%;><li
+class=product_soon><a
+href=https://blog.apexsql.com/whats-new-in-apexsql-dba-apexsql-manage-sql-server-instances-discovery-health-check-documentation-and-comparison/>ApexSQL Manage</a></li><li><a
+href=https://www.apexsql.com/sql_tools_monitor.aspx>ApexSQL Monitor</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_plan.aspx>ApexSQL Plan</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_fourth"><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_propagate.aspx>ApexSQL Propagate</a></li><li><a
+href=https://www.apexsql.com/sql_tools_recover.aspx>ApexSQL Recover</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_vm_monitor.aspx>ApexSQL VM Monitor</a></li></ul></div><div
+id=top_menu_products_dev class="col-md-12 col-sm-12 col-xs-12">
+<a
+class=top_menu_bundles_link href=https://www.apexsql.com/sql_tools_dev.aspx>ApexSQL Developer</a>
+<span
+class=top_menu_bundles_ptag>Database development and continuous integration</span><ul
+class="top_menu_solution_list top_menu_two_solution_list_first" style=width:22%;><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_analyze.aspx>ApexSQL Analyze</a></li><li><a
+href=https://www.apexsql.com/sql_tools_build.aspx>ApexSQL Build</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_compare.aspx>ApexSQL Compare</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_complete.aspx>ApexSQL Complete</a></li><li><a
+href=https://www.apexsql.com/sql_tools_datadiff.aspx>ApexSQL Data Diff</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_second" style=width:22%;><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_decrypt.aspx>ApexSQL Decrypt</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_cicd.aspx>ApexSQL DevOps toolkit</a></li><li><a
+href=https://www.apexsql.com/sql_tools_diff.aspx>ApexSQL Diff</a></li><li><a
+href=https://www.apexsql.com/sql_tools_doc.aspx>ApexSQL Doc</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_enforce.aspx>ApexSQL Enforce</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_third"><li><a
+href=https://www.apexsql.com/sql_tools_generate.aspx>ApexSQL Generate</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql-tools-mask.aspx>ApexSQL Mask</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_model.aspx>ApexSQL Model</a></li><li
+class=product_soon><a
+href=https://blog.apexsql.com/whats-next-in-apexsql-developer-apexsql-pump-sql-server-data-import-export/>ApexSQL Pump</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_refactor.aspx>ApexSQL Refactor</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_fourth" style=width:20%;><li><a
+href=https://www.apexsql.com/sql_tools_script.aspx>ApexSQL Script</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_search.aspx>ApexSQL Search</a></li><li><a
+href=https://www.apexsql.com/sql_tools_source_control.aspx>ApexSQL Source Control</a></li><li><a
+href=https://www.apexsql.com/sql_tools_trigger.aspx>ApexSQL Trigger</a></li><li><a
+href=https://www.apexsql.com/sql_tools_unit_test.aspx>ApexSQL Unit Test</a></li></ul></div></div><div
+id=top_menu_products_links class="col-md-12 col-sm-12 col-xs-12">
+<a
+href=https://www.apexsql.com/whats_new.aspx class="products_links_button link_button button_big button_purple">What's new</a>
+<a
+href=https://www.apexsql.com/whats_next.aspx class="products_links_button link_button button_big button_purple">What's next</a></div></div><div
+id=top_menu_solutions_wrapper><div
+id=top_menu_solutions_inner><div
+id=top_menu_solution1 class="col-md-12 col-sm-12 col-xs-12"><h2 class="top_menu_solution_header">Database administration</h2><ul
+class="top_menu_solution_list top_menu_two_solution_list_first"><li><a
+href=https://www.apexsql.com/sql_tools_audit.aspx>Auditing and compliance</a></li><li><a
+href=https://www.apexsql.com/sql_tools_monitor.aspx>Azure/Amazon monitoring</a></li><li><a
+href=https://www.apexsql.com/sql_tools_backup.aspx>Database backup</a></li><li><a
+href=https://www.apexsql.com/sql_tools_recover.aspx>Disaster recovery</a></li><li><a
+href=https://www.apexsql.com/sql_tools_log.aspx>Forensic auditing</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_second" style=width:25%;><li><a
+href=https://www.apexsql.com/sql_tools_defrag.aspx>Index defragmentation</a></li><li
+class=product_soon><a
+href=https://blog.apexsql.com/whats-new-in-apexsql-dba-apexsql-manage-sql-server-instances-discovery-health-check-documentation-and-comparison/>Inventory management</a></li><li><a
+href=https://www.apexsql.com/sql_tools_log.aspx>Load testing</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_propagate.aspx>Multi-DB script execution</a></li><li><a
+href=https://www.apexsql.com/sql_tools_recover.aspx>Object level restore</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_third" style=width:22%;><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_plan.aspx>Query optimization</a></li><li
+class=product_soon><a
+href=https://blog.apexsql.com/whats-new-in-apexsql-dba-apexsql-manage-sql-server-instances-discovery-health-check-documentation-and-comparison/>Server compare</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/whats_next.aspx#ApexSQL_Job_2018>SQL job automation</a></li><li><a
+href=https://www.apexsql.com/sql_tools_monitor.aspx>SQL Server monitoring</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_bi_monitor.aspx>SSAS monitoring</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_fourth" style=width:22%;><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_bi_monitor.aspx>SSIS monitoring</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_bi_monitor.aspx>SSRS monitoring</a></li><li><a
+href=https://www.apexsql.com/sql_tools_log.aspx>Transaction log reading</a></li><li><a
+href=https://www.apexsql.com/sql_tools_log.aspx>Transactional replication</a></li><li
+class=product_new style=padding-top:4.5px><a
+href=https://www.apexsql.com/sql_tools_vm_monitor.aspx>Virtualization monitoring</a></li></ul></div><div
+id=top_menu_solution2 class="col-md-12 col-sm-12 col-xs-12"><h2 class="top_menu_solution_header">Database development</h2><ul
+class="top_menu_solution_list top_menu_two_solution_list_first"><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_cicd.aspx>Continuous delivery</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_cicd.aspx>Continuous integration</a></li><li><a
+href=https://www.apexsql.com/sql_tools_trigger.aspx>Custom application auditing</a></li><li><a
+href=https://www.apexsql.com/sql_tools_datadiff.aspx>Data compare</a></li><li
+class=product_soon><a
+href=https://blog.apexsql.com/whats-next-in-apexsql-developer-apexsql-pump-sql-server-data-import-export/>Data import/export</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql-tools-mask.aspx>Data masking</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_cicd.aspx>Database DevOps</a></li><li><a
+href=https://www.apexsql.com/sql_tools_doc.aspx>Database documentation</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_second" style=width:25%;><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_model.aspx>Database modeling</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_analyze.aspx>Dependency analysis</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_complete.aspx>Developer productivity</a></li><li
+class=product_new style="padding:0.7px 0"><a
+href=https://www.apexsql.com/sql_tools_enforce.aspx>Development best practices</a></li><li><a
+href=https://www.apexsql.com/sql_tools_doc.aspx>Documentation</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_decrypt.aspx>Object decryption</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_refactor.aspx>Object refactoring</a></li><li><a
+href=https://www.apexsql.com/sql_tools_build.aspx>Packaging and deployment</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_third" style="width: 22%;"><li><a
+href=https://www.apexsql.com/sql_tools_script.aspx>Schema and data scripting</a></li><li><a
+href=https://www.apexsql.com/sql_tools_diff.aspx>Schema compare</a></li><li
+class=product_free style=padding-bottom:4.5px><a
+href=https://www.apexsql.com/sql_tools_compare.aspx>Script comparison</a></li><li><a
+href=https://www.apexsql.com/sql_tools_doc.aspx>SharePoint documentation</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_refactor.aspx>SQL formatting</a></li><li><a
+href=https://www.apexsql.com/sql_tools_doc.aspx>SQL Server documentation</a></li><li><a
+href=https://www.apexsql.com/sql_tools_source_control.aspx>SQL source control</a></li><li><a
+href=https://www.apexsql.com/sql_tools_unit_test.aspx>SQL unit testing</a></li></ul><ul
+class="top_menu_solution_list top_menu_two_solution_list_fourth" style=width:24%;><li><a
+href=https://www.apexsql.com/sql_tools_doc.aspx>SSAS documenation</a></li><li><a
+href=https://www.apexsql.com/sql_tools_doc.aspx>SSIS documenation</a></li><li><a
+href=https://www.apexsql.com/sql_tools_diff.aspx>SSIS package compare</a></li><li><a
+href=https://www.apexsql.com/sql_tools_doc.aspx>SSRS documenation</a></li><li
+class=product_free style=padding-top:4.5px><a
+href=https://www.apexsql.com/sql_tools_complete.aspx>Statement auto complete</a></li><li
+class=product_new><a
+href=https://www.apexsql.com/sql_tools_enforce.aspx>Static code analysis</a></li><li><a
+href=https://www.apexsql.com/sql_tools_generate.aspx>Test data generation</a></li><li
+class=product_free><a
+href=https://www.apexsql.com/sql_tools_search.aspx>Text and object search</a></li></ul></div></div><div
+id=top_menu_solutions_links class="col-md-12 col-sm-12 col-xs-12">
+<a
+href=https://solutioncenter.apexsql.com/ class="products_links_button link_button button_big button_purple"> Solution center </a></div></div><div
+id=top_menu_search_wrapper><div
+id=top_menu_search_inner><form
+id=searchbox_003552404213805073309:4kynysibeoa class=click_exclude action=https://www.apexsql.com/helpSearchResults.aspx style=margin-bottom:0px;>
+<input
+name=addsearch type=text id=siteSearchBox class="addsearch top_menu_search_box click_exclude" value
+onblur="setSearchBox('siteSearchBox');" onclick="resetSearchBox('siteSearchBox')">
+<input
+id=siteSearchimage type=image onclick="resetSearchBox('siteSearchBox');" name=sa class="searchButton_home top_menu_search_button click_exclude"
+src=/topmenu/search63x63.png></form></div></div></div> <script>$(document).click(ShowDown2());
+
+        $('#top_menu_search_inner form').submit(function () {
+
+            // Get the field value and trim it
+            var text = $.trim($('#siteSearchBox').val());
+
+            // Check if empty of not
+            if (text === '') {
+                return false;
+            }
+        });</script> <div
+id=page class="hfeed site"><header
+id=masthead class=site-header role=banner><hgroup><div
+class=title_in style="width:93%; margin-left:16px; margin-top: 20px; border-bottom: none; margin-bottom: 0; padding-bottom: 0;"><a
+href=https://blog.apexsql.com/  rel=home target=_top><div
+style="margin-left:0px; float:left;">
+<span
+style="font-size:34px; color:#4D82BE;">Blog</span></div></a><div
+style=clear:both;></div></div><p
+class=announce_text style=margin-left:20px;><b></b></p></hgroup></header><div
+id=main class=wrapper><div
+id=primary class=site-content><div
+id=content role=main><article
+id=post-16991 class="post-16991 post type-post status-publish format-standard has-post-thumbnail hentry category-apexsql-devops-toolkit">
+<header
+class=entry-header><h1 class="entry-title">ApexSQL database DevOps continuous integration workflow – visual representation</h1><div
+style=text-align:left;padding-left:17px;padding-top:10px></div>
+</header><div
+class=entry-content><p>
+This article will represent the recommended working model for database DevOps to create SQL Server database continuous integration and continuous delivery pipelines with a set of SQL developer tools.</p><p><span
+id=more-16991></span></p><p>
+Here are some graphic representations of the recommended workflows for SQL database CI CD best practices</p><p>
+The general concept of the overall SQL database CI CD system is represented with this design:</p><p>
+<a
+class=zoom href=/wp-content/uploads/2018/11/word-image-128.png><img
+src=/wp-content/uploads/2018/11/word-image-128.png class=wp-image-16992 srcset="https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-128.png 1407w, https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-128-300x104.png 300w, https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-128-768x266.png 768w, https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-128-1024x355.png 1024w, https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-128-624x216.png 624w" sizes="(max-width: 1407px) 100vw, 1407px"></a></p><p>This particular article on CI will provide a description for continuous integration recommended workflow to automate integration of database changes</p><h2>Continuous integration</h2><p>
+In SQL database continuous integration, we commit database changes from development, process them with continuous integration by building the new database version, test it, audit sensitive tables if needed, document changes and prepare package for deployment.</p><p> Deployment of package goes through <a
+href=https://blog.apexsql.com/apexsql-database-devops-continuous-delivery-workflow-visual-representation/>continuous delivery workflow</a> where provisioning of databases is done then synchronization of changes with the provisioned databases or with the production through final deployment action.</p><p>
+At any moment the comparison between production database and development on Source control is possible in order to ensure that developers are working with the latest version of the database.</p><p>
+In detail the continuous integration workflow will look like this:</p><p>
+<a
+class=zoom href=/wp-content/uploads/2018/11/word-image-129.png><img
+src=/wp-content/uploads/2018/11/word-image-129.png class=wp-image-16993 srcset="https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-129.png 1430w, https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-129-300x65.png 300w, https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-129-768x168.png 768w, https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-129-1024x223.png 1024w, https://blog.apexsql.com/wp-content/uploads/2018/11/word-image-129-624x136.png 624w" sizes="(max-width: 1430px) 100vw, 1430px"></a></p><p>
+At the beginning we will use committed code to Source control from database development as source for continuous integration with the following steps:</p><ol><li><a
+href=https://www.apexsql.com/sql-tools-build.aspx><strong>Build step</strong></a><p> This is the first step in the workflow where temporary test database is built. We use <a
+href=https://www.apexsql.com/sql-tools-build.aspx>ApexSQL Build</a> for the execution of the step.</p><p><em>More details about the mechanics of the Build step can be found in the article: </em><a
+href=https://solutioncenter.apexsql.com/continuous-integration-ci-workflow-build-step-building-a-sql-database-from-a-source-control-repository/><em>SQL Server database continuous integration workflow BUILD step – Building a SQL database from a source control repository</em></a></p></li><li><a
+href=https://www.apexsql.com/sql-tools-generate.aspx><strong>Populate step</strong></a><strong> </strong><p>
+This is the next step in line and the first step of the testing phase and it is used to fill in the empty tables with synthetic data. <a
+href=https://www.apexsql.com/sql-tools-generate.aspx>ApexSQL Generate</a> will perform this task</p><p><em>More details about how the Populate step works can be found in the article: </em><a
+href=https://solutioncenter.apexsql.com/sql-server-database-continuous-integration-workflow-populate-step-populating-built-sql-database-with-data/><em>SQL Server database continuous integration workflow POPULATE step – Populating the newly built SQL database with data</em></a></p></li><li><a
+href=https://www.apexsql.com/sql-tools-trigger.aspx><strong>Audit step</strong></a><strong> </strong><p>
+Along with testing steps this step is available to do some database pre-deployment work “on-the-fly”. It can be used to implement triggers on new tables that are needed in production. <a
+href=https://www.apexsql.com/sql-tools-trigger.aspx>ApexSQL Trigger</a> is used for this step.</p><p><em>More details about the trigger based auditing can be found in the article: </em><a
+href=https://solutioncenter.apexsql.com/auditing-triggers-in-sql-server-databases/><em>Auditing triggers in SQL Server databases</em></a></p></li><li><a
+href=https://www.apexsql.com/sql-tools-unit-test.aspx><strong>Test step</strong></a><p> This step is next is line for the testing phase. It is used to perform unit tests against the objects in test database. To design unit tests and install test framework <a
+href=https://www.apexsql.com/sql-tools-unit-test.aspx>ApexSQL Unit Test</a> is used and it comes with SQLCop compilation of unit tests.</p><p><em>More details about how the Test step works can be found in the article: </em><a
+href=https://solutioncenter.apexsql.com/sql-server-database-continuous-integration-workflow-test-step-running-sql-unit-tests-against-the-changes/><em>SQL Server database continuous integration workflow TEST step – Running SQL unit tests against the changes</em></a></p></li><li><a
+href=https://www.apexsql.com/sql-tools-enforce.aspx><strong>Review step</strong></a><p> In this step we run a rulebase designed and executed by <a
+href=https://www.apexsql.com/sql-tools-enforce.aspx>ApexSQL Enforce</a> against the test database and check if database satisfies criteria defined in a rulebase file for best practices.</p><p><em>More information about rulebase and database review can be found in the article: </em><a
+href=https://solutioncenter.apexsql.com/how-to-execute-an-unattended-best-practices-review-against-a-database/><em>How to execute an unattended best practices review against a database</em></a></p><p>
+After the testing phase which provides feedback for developers there are few finishing steps available.</p></li><li><a
+href=https://www.apexsql.com/sql-tools-doc.aspx><strong>Document step</strong></a><strong> </strong><p> The step is executed using <a
+href=https://www.apexsql.com/sql-tools-doc.aspx>ApexSQL Doc</a> to document entire database or delta between different versions.</p><p><em>More details about documenting a database can be found in the article: </em><a
+href=https://solutioncenter.apexsql.com/sql-server-database-continuous-integration-workflow-document-step-creating-database-documentation/><em>SQL Server database continuous integration workflow DOCUMENT step – Creating database documentation</em></a></p></li><li><a
+href=https://www.apexsql.com/sql-tools-script.aspx><strong>Package step</strong></a><p> It prepares a package for deployment by creating database script folder with <a
+href=https://www.apexsql.com/sql-tools-script.aspx>ApexSQL Script</a> and creates a NuGet package which is used as source for deployment. In the package should be stored outputs from all previously executed steps like reports and summaries for later review.</p><p><em>More details about expected package inventory can be found in the article: </em><a
+href=https://knowledgebase.apexsql.com/inventory-cicd-pipeline-output-files/><em>Inventory of the CI/CD pipeline output files</em></a></p></li><li><strong>Publish step</strong><p>
+Optional step that can be used to push the newly created NuGet package to a designated NuGet feed.</p></li><li><strong>Notify step</strong><p>
+It is the final step in the continuous integration workflow to send the information about success/failure status of the workflow to a QA person who can open a NuGet package and review all reports, summaries and documentation and troubleshoot the process if needed.</p></li></ol><h2>ApexSQL DevOps toolkit</h2><p> In order to design a continuous integration workflow like the one described and automate it in a single or multiple pipelines <a
+href=https://www.apexsql.com/sql-tools-devops.aspx>ApexSQL DevOps toolkit</a> is required. This is a free automation layer that works with your existing ApexSQL tools.</p><p>The ApexSQL DevOps toolkit is available as a standalone solution with PowerShell cmdlets or Web dashboard application or as plugin for the popular Atlassian Bamboo and JetBrains TeamCity continuous integration servers.</p><p>&nbsp;</p><p
+class=no-break><span
+st_via=ApexSQL st_username=ApexSQL st_title='ApexSQL database DevOps continuous integration workflow – visual representation' st_url=https://blog.apexsql.com/apexsql-database-devops-continuous-integration-workflow-visual-representation/ class=st_twitter_large></span>
+<span
+st_title='ApexSQL database DevOps continuous integration workflow – visual representation' st_url=https://blog.apexsql.com/apexsql-database-devops-continuous-integration-workflow-visual-representation/ class=st_linkedin_large></span>
+<span
+st_title='ApexSQL database DevOps continuous integration workflow – visual representation' st_url=https://blog.apexsql.com/apexsql-database-devops-continuous-integration-workflow-visual-representation/ class=st_facebook_large></span></p><div
+class=yarpp-related><h3>Related posts:</h3><ol><li><a
+href=https://blog.apexsql.com/apexsql-database-devops-continuous-delivery-workflow-visual-representation/ rel=bookmark title="ApexSQL database DevOps continuous delivery workflow – visual representation">ApexSQL database DevOps continuous delivery workflow – visual representation </a></li><li><a
+href=https://blog.apexsql.com/whats-new-in-the-apexsql-devops-toolkit-bamboo-build-server-plug-in/ rel=bookmark title="What’s new in the ApexSQL DevOps toolkit – Bamboo build server plug-in">What’s new in the ApexSQL DevOps toolkit – Bamboo build server plug-in </a></li><li><a
+href=https://blog.apexsql.com/apexsql-devops-toolkit-2018-r5-product-update-alert/ rel=bookmark title="ApexSQL DevOps toolkit 2018 R5 – Product update alert">ApexSQL DevOps toolkit 2018 R5 – Product update alert </a></li><li><a
+href=https://blog.apexsql.com/apexsql-cicd-toolkit-wins-devops-2020-innovator-product-excellent-award-for-continuous-database-integration/ rel=bookmark title="ApexSQL CICD toolkit wins DevOps 2020 Innovator Product Excellence award for Continuous Database Integration">ApexSQL CICD toolkit wins DevOps 2020 Innovator Product Excellence award for Continuous Database Integration </a></li><li><a
+href=https://blog.apexsql.com/why-you-need-to-integrate-data-auditing-into-your-sql-server-database-continuous-integration-process/ rel=bookmark title="Why you need to integrate data auditing into your SQL Server database continuous integration process">Why you need to integrate data auditing into your SQL Server database continuous integration process </a></li></ol></div>
+November 21, 2018</div><footer
+class=entry-meta>
+</footer></article><div
+id=comments class=comments-area></div></div></div><div
+id=secondary class=widget-area role=complementary>
+<aside
+id=sml_subscribe_widget class="widget sml_subscribe_widget_display"><h3 class="widget-title">Newsletter</h3><div
+class=textwidget><form
+onsubmit=get_anchor() class=sml_subscribe method=post><p
+class=sml_email><label
+class=sml_emaillabel for=sml_email></label><input
+class=sml_emailinput name=sml_email placeholder=Email type=text value maxlength=70 id=ctl00_ContentPlaceHolder1_txtEmail class=searchBox placeholder="Email address"  onblur=DeactivateForm(); style="float: left;
+vertical-align: middle;width: 145px !important;height: 23px;border: 1px solid rgb(170, 170, 170);border-radius: 4px 4px 4px 4px;padding-left: 5px;margin-top: 0px;margin-right: 4px;font-style: italic;"></p><p
+class=sml_submit style="margin-bottom: auto;"><input
+name=submit class="btn sml_submitbtn button_newsletter" type=image src=/images/Subscribe.png style="border-width: 0px; opacity: 0.9;" value=Subscribe></p><input
+class=sml_hiddenfield name=sml_subscribe type=hidden value=1><input
+type=hidden id=refurl name=refurl value=/apexsql-database-devops-continuous-integration-workflow-visual-representation/></form></div></aside><aside
+id=text-2 class="widget widget_text"><div
+class=textwidget><div
+class=top_rounded style=" ">
+<span>News</span></div><div
+class=left_menu style="
+width: 280px;
+"><div
+style="float:left; width:130px;"><p>
+<a
+href=http://www.apexsql.com/whats_new.aspx>What's new</a></p><p>
+<a
+href=http://www.apexsql.com/whats_next.aspx>What's next</a></p><p>
+<a
+href=/category/product-updates>Product updates</a></p></div><div
+style=clear:both;></div></div></div>
+</aside><aside
+id=text-3 class="widget widget_text"><div
+class=textwidget><div
+class=top_rounded style="padding-top: 15px;"><span>By product</span></div><div
+class=left_menu style="width: 280px;"><p><a
+href=/category/apexsql-analyze>ApexSQL Analyze</a></p><p><a
+href=/category/apexsql-audit>ApexSQL Audit</a></p><p><a
+href=/category/apexsql-backup>ApexSQL Backup</a></p><p><a
+href=/category/apexsql-bi-monitor>ApexSQL BI Monitor</a></p><p><a
+href=/category/apexsql-build>ApexSQL Build</a></p><p><a
+href=/category/apexsql-compare>ApexSQL Compare</a></p><p><a
+href=/category/apexsql-complete>ApexSQL Complete</a></p><p><a
+href=/category/apexsql-data-diff>ApexSQL Data Diff</a></p><p><a
+href=/category/apexsql-decrypt>ApexSQL Decrypt</a></p><p><a
+href=/category/apexsql-defrag>ApexSQL Defrag</a></p><p><a
+href=/category/apexsql-devops-toolkit>ApexSQL DevOps toolkit</a></p><p><a
+href=/category/apexsql-diff>ApexSQL Diff</a></p><p><a
+href=/category/apexsql-discover/>ApexSQL Discover</a></p><p><a
+href=/category/apexsql-doc>ApexSQL Doc</a></p><p><a
+href=/category/apexsql-enforce>ApexSQL Enforce</a></p><p><a
+href=/category/apexsql-generate>ApexSQL Generate</a></p><p><a
+href=/category/apexsql-job/>ApexSQL Job</a></p><p><a
+href=/category/apexsql-log>ApexSQL Log</a></p><p><a
+href=/category/apexsql-mask/>ApexSQL Mask</a></p><p><a
+href=/category/apexsql-model>ApexSQL Model</a></p><p><a
+href=/category/apexsql-monitor>ApexSQL Monitor</a></p><p><a
+href=/category/apexsql-plan>ApexSQL Plan</a></p><p><a
+href=/category/apexsql-propagate>ApexSQL Propagate</a></p><p><a
+href=/category/apexsql-pump>ApexSQL Pump</a></p><p><a
+href=/category/apexsql-recover>ApexSQL Recover</a></p><p><a
+href=/category/apexsql-refactor>ApexSQL Refactor</a></p><p><a
+href=/category/apexsql-script>ApexSQL Script</a></p><p><a
+href=/category/apexsql-search>ApexSQL Search</a></p><p><a
+href=/category/apexsql-source-control>ApexSQL Source Control</a></p><p><a
+href=/category/apexsql-trigger>ApexSQL Trigger</a></p><p><a
+href=/category/apexsql-unit-test>ApexSQL Unit Test</a></p><p><a
+href=/category/apexsql-vm-monitor>ApexSQL VM Monitor</a></p></div><div
+style="clear: both; padding-bottom: 26px;"></div></div>
+</aside><aside
+id=text-4 class="widget widget_text"><div
+class=textwidget><style>/*<![CDATA[*/.left_menu_popular {<br >        width: 280px;<br >}<br >.left_menu_popular p a {<br >	display: block;<br >	padding-top: 3px !important;<br >	padding-bottom: 3px !important;<br >}<br >.left_menu_popular p {<br >	margin-bottom: 0px !important;<br >	padding-bottom: 5px !important;<br >        font-size: 14px !important;<br >}<br >@media(max-width:1010px) and (min-width:600px){<br >.left_menu_popular {<br >    width: 100% !important;<br >    word-wrap: break-word;<br >}<br >}<br >@media(max-width:599px){<br >.left_menu_popular {<br >	width: 100% !important;<br >	}<br >}<br >/*]]>*/</style><div
+class=top_rounded style="padding-top: 15px; font-size: 23px !important;">Popular</div><div
+class="left_menu left_menu_popular"><p><a
+href=/apexsql-has-joined-the-quest-team/>ApexSQL has Joined the Quest Team</a></p><p><a
+href=/visual-themes-in-apexsql-tools/>Visual themes in ApexSQL tools</a></p><p><a
+href=/whats-next-in-apexsql-developer-apexsql-mask-sql-server-data-masking/>What’s next in ApexSQL Developer: ApexSQL Mask – SQL Server data masking</a></p><p><a
+href=/visual-themes-in-apexsql-tools/>Visual themes in ApexSQL tools</a></p><p><a
+href=/sql-server-management-studio-ssms-18-support-for-apexsql-tools-add-ins/>SQL Server Management Studio (SSMS) 18 support for ApexSQL tools/add-ins</a></p><p><a
+href=/whats-new-in-apexsql-dba-apexsql-manage-sql-server-instances-discovery-health-check-documentation-and-comparison/>What’s next in ApexSQL DBA: ApexSQL Manage – SQL Server instances discovery, health check, documentation and comparison</a></p><p><a
+href=/apexsql-vs-redgate-comparative-articles/>ApexSQL vs Redgate® comparative articles</a></p><p><a
+href=/whats-next-in-apexsql-developer-apexsql-mask-sql-server-data-masking/>What’s new in ApexSQL Developer: ApexSQL Mask – SQL Server data masking</a></p><p><a
+href=/free-sql-modeling-tool-apexsql-model-is-now-free/>Free SQL modeling tool – ApexSQL Model is now free</a></p><p><a
+href=/apexsql-model-2018-screenshot-tour>ApexSQL Model 2018 – Screen shot tour</a></p><p><a
+href=/whats-new-in-apexsql-developer-apexsql-model-database-diagramming/>What’s new in ApexSQL Developer: ApexSQL Model – database diagramming</a></p><p><a
+href=/apexsql-doc-2018-screen-shot-tour/>ApexSQL Doc 2018 – Screen shot tour</a></p><p><a
+href=/apexsql-vs-redgate-developer-tools-comparative-matrix/>ApexSQL vs RedGate® developer tools comparative matrix</a></p><p><a
+href=/the-sql-auto-complete-feature-in-apexsql-complete-hint-list/>ApexSQL Complete feature highlight: Hint-list</a></p><p><a
+href=/apexsql-log-vs-sql-server-change-data-capture-cdc/>ApexSQL Log vs. SQL Server Change Data Capture (CDC)</a></p><p><a
+href=/apexsql-audit-vs-sql-server-change-data-capture-cdc/>ApexSQL Audit vs. SQL Server Change Data Capture (CDC)</a></p><p><a
+href=/whats-next-in-apexsql-dba-apexsql-discover-sql-server-instance-search-and-inventory/>What’s new in ApexSQL DBA: ApexSQL Discover – SQL Server instance search and inventory</a></p><p><a
+href=/apexsql-mask-2019-screen-shot-tour/>ApexSQL Mask 2019 – Screen shot tour</a></p></div><div
+style="clear: both; padding-bottom: 26px;"></div></div>
+</aside></div></div></div><div
+id=wpfront-scroll-top-container>
+<i
+class="fas fa-angle-up fa-6x"></i></div><style>#wpfront-scroll-top-container i {
+            color: #c8cad0;
+        }</style> <script>function wpfront_scroll_top_init() {if(typeof wpfront_scroll_top == "function" && typeof jQuery !== "undefined") {wpfront_scroll_top({"scroll_offset":100,"button_width":0,"button_height":0,"button_opacity":0.8,"button_fade_duration":200,"scroll_duration":400,"location":1,"marginX":60,"marginY":50,"hide_iframe":false,"auto_hide":false,"auto_hide_after":5,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":0});} else {setTimeout(wpfront_scroll_top_init, 100);}}wpfront_scroll_top_init();</script><script src="https://blog.apexsql.com/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.0.1" async=async defer=defer></script> <script src='https://blog.apexsql.com/wp-content/themes/twentytwelve/js/navigation.js?ver=20140711'></script> <script src='https://blog.apexsql.com/wp-includes/js/wp-embed.min.js?ver=5.0.3'></script>  <script>$('#searchform').submit(function () {
+
+        // Get the field value and trim it
+        var text = $.trim($('#s').val());
+
+        // Check if empty of not
+        if (text === '') {
+            return false;
+        }
+    });</script>  <script>var google_conversion_id = 1072533318;
+var google_conversion_label = "ya7xCJLuuwQQxp62_wM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;</script> <script src=//www.googleadservices.com/pagead/conversion.js></script> <noscript><div
+style=display:inline;>
+<img
+height=1 width=1 style=border-style:none; alt src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1072533318/?value=1.00&amp;currency_code=USD&amp;label=ya7xCJLuuwQQxp62_wM&amp;guid=ON&amp;script=0"></div>
+</noscript></body><div
+class=footer><div
+class=footer_content><div
+class=footer_links_container><div
+class=footer_company_news><div
+class=footer_company><p
+class=footer_titles>Software</p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/supported-software.aspx>What's supported</a></p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/requirements.aspx>Requirements</a></p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/testimonials.aspx>Testimonials</a></p></div><div
+class=footer_news><p
+class=footer_titles>Sales</p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/support_plans.aspx>Support plans</a></p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/renewals_and_upgrades.aspx>Renewals and upgrades</a></p><p
+class=footer_link>
+<a
+href=https://blog.apexsql.com/how-are-apexsql-tools-licensed/>Licensing</a></p></div><div
+class=footer_popular><p
+class=footer_titles>Help</p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/support/>Technical support</a></p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/Customer_service/>Customer service</a></p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/resend_keys.aspx>Resend keys</a></p></div><div
+class=footer_popular_resources_contacts><p
+class=footer_titles>News</p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/whats_new.aspx>What's new</a></p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/whats_next.aspx>What's next</a></p><p
+class=footer_link>
+<a
+href=https://blog.apexsql.com/>Blog</a></p></div><div
+class=footer_contact><p
+class=footer_titles>Free</p><p
+class=footer_link>
+<a
+href=https://www.apexsql.com/free/>Tools</a></p><p
+class=footer_link>
+<a
+href=https://sql-formatter.online/ target=_blank>SQL formatter</a></p></div><div
+class=footer_contact><p
+class=footer_titles>Company</p><p
+class=footer_link><a
+href=https://www.apexsql.com/contact/>Contact</a></p><p
+class=footer_link><a
+href=https://www.apexsql.com/AboutUs.aspx>About</a></p></div></div></div><div
+class=footer_partner>
+<img
+src=/footer/ms-gold-partner-normal-transparent.png
+alt="Gold Partner"></div><div
+class=footer_copyright></div><div
+class=footer_social_Icons>
+<a
+href=https://tv.apexsql.com/>
+<img
+src=/footer/videos-27.png
+style="width: 27px; height: 27px;"></a>&nbsp;
+<a
+href=https://twitter.com/ApexSQL rel=nofollow target=_blank>
+<img
+src=/footer/twitter-27.png
+style="width: 27px; height: 27px;"></a>&nbsp;
+<a
+href=https://www.facebook.com/ApexSQL rel=nofollow target=_blank>
+<img
+src=/footer/facebook-27.png
+style="width: 27px; height: 27px;"></a>&nbsp;
+<a
+href=https://blog.apexsql.com>
+<img
+src=/footer/blog-27.png
+style="width: 27px; height: 27px;"></a>
+<a
+href=https://www.apexsql.com/#SubscribeBox>
+<img
+src=https://www.apexsql.com/images/footer/social/social/27/newsletter-27.png
+style="width: 27px; height: 27px;"></a></div><div
+class=clear></div></div></div><div
+style="background-color: #f2f2f2; border-top: 1px solid #d3d3d3;"><div
+style="max-width: 1170px; margin: auto; padding-left: 2%;"><p
+style="font-size: 12px; padding-top: 1%;">&copy; 2019 Quest Software Inc. ALL RIGHTS RESERVED. &nbsp; | &nbsp; +1 (866) 665-5500 &nbsp; | &nbsp; <a
+style="color: #535353;" href=mailto:sales@apexsql.com>sales@apexsql.com</a> &nbsp; | &nbsp; <a
+style="color: #535353;" href=mailto:support@apexsql.com>support@apexsql.com</a>  &nbsp; | &nbsp; <a
+style="color: #535353;" href=https://www.quest.com/legal/gdpr-hq.aspx target=_blank>GDPR</a> &nbsp; | &nbsp; <a
+style="color: #535353;" href=https://www.quest.com/legal target=_blank>Terms of Use</a> &nbsp; | &nbsp; <a
+style="color: #535353;" href=https://www.quest.com/legal/privacy.aspx target=_blank>Privacy</a></p></div></div>
+ <script>_atrk_opts = { atrk_acct:"V55Ri1a8Dy00Wj", domain:"apexsql.com",dynamic: true};(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();</script><noscript><img
+src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=V55Ri1a8Dy00Wj" style=display:none height=1 width=1 alt></noscript></html>
